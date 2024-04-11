@@ -3,9 +3,9 @@
   array (
     'database_host' => '127.0.0.1',
     'database_port' => '',
-    'database_name' => 'homedecor',
-    'database_user' => 'root',
-    'database_password' => '',
+    'database_name' => 'gs6tjsu7tgs_homedecor2',
+    'database_user' => 'gs6tjsu7tgs_user',
+    'database_password' => '@#G.K90}2r!W',
     'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
