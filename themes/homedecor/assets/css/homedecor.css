@@ -1040,8 +1040,10 @@ aspect-ratio: 1;
         display: grid;
         gap:10px;
         grid-template-areas:
-        'store1 store3  '
-        'store2 store3  '
+        'store1 store3 store3'
+        'store1 store3 store3'
+        'store2 store3 store3'
+        'store2 store3 store3'
     ;
     }
 
