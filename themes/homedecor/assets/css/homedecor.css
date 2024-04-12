@@ -1118,7 +1118,7 @@ aspect-ratio: 1;
         'about1 about2 '
         'about3 about4 '
     ;
-    flex: 1;
+    /* flex: 1; */
     }
 
     .grid_imgs_dropdown3 img{
