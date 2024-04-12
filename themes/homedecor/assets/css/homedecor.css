@@ -998,7 +998,7 @@ aspect-ratio: 1;
     }
 
     .dropdown-menu .links-dropdown {
-        flex: 0.7;
+        flex: 1;
         padding-left: 1rem;
     }
     .dropdown-menu .links-dropdown li{
@@ -1116,9 +1116,8 @@ aspect-ratio: 1;
         gap:10px;
         grid-template-areas:
         'about1 about2 '
-        'about3 about4 '
-    ;
-    /* flex: 1; */
+        'about3 about4 ';
+        grid-auto-rows: minmax(100px, auto);
     }
 
     .grid_imgs_dropdown3 img{
