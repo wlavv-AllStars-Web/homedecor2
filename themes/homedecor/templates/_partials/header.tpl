@@ -144,6 +144,7 @@
               <ul class="dropdown-menu drop4">
               {* <pre>{$categories_child|print_r}</pre> *}
                 <div class="links-dropdown">
+                <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">Novidades</a></li>
                   {foreach from=$categories_parent item=category key=key}
                     <li><a href="{$category['infos']['id_category']}-{$category['infos']['link_rewrite']}" onclick="activateLink(this);">{$category['infos']['name']}</a></li>
                   {/foreach}

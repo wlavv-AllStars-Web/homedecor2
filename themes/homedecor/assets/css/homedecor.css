@@ -1169,11 +1169,11 @@ aspect-ratio: 1;
       position: relative;
     }
 
-    .category-top-menu .category-sub-menu a:hover{
+    /* .category-top-menu .category-sub-menu a:hover{
       color: var(--tertiary);
-    }
+    } */
 
-    .category-top-menu .category-sub-menu a:hover::after{
+    /* .category-top-menu .category-sub-menu a:hover::after{
       content: '';
       width: 8px;
       height: 8px;
@@ -1183,7 +1183,7 @@ aspect-ratio: 1;
       left: -0.5rem;
       top: 50%;
       transform: translateY(-50%);
-    }
+    } */
 
 
 
