@@ -85,7 +85,7 @@
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop1">
                 <div class="links-dropdown">
-                  <li><a href="/blog.html" onclick="activateLink(this)">Blog</a></li>
+                  <li><a href="{$link->getCMSLink(6)}" onclick="activateLink(this)">Blog</a></li>
                   <li><a href="#" onclick="activateLink(this)">Vlog</a></li>
                 </div>
                 <div class="dropdown-imgs">
@@ -142,9 +142,9 @@
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Loja
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop4">
-              {* <pre>{$blogs|print_r}</pre> *}
+              {* <pre>{$categories_child|print_r}</pre> *}
                 <div class="links-dropdown">
-                  {foreach from=$categories_child item=category key=key}
+                  {foreach from=$categories_parent item=category key=key}
                     <li><a href="{$category['infos']['id_category']}-{$category['infos']['link_rewrite']}" onclick="activateLink(this);">{$category['infos']['name']}</a></li>
                   {/foreach}
                   <li><a href="{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">Todas</a></li>
