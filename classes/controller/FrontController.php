@@ -612,7 +612,7 @@ class FrontControllerCore extends Controller
         LEFT JOIN ps_leoblog_blog_lang AS lbl
         ON lb.id_leoblog_blog = lbl.id_leoblog_blog
         WHERE ACTIVE = 1 AND id_lang='.$lang.'
-        ORDER BY lb.id_leoblog_blog
+        ORDER BY lb.id_leoblog_blog DESC
         LIMIT 2
         ');
 

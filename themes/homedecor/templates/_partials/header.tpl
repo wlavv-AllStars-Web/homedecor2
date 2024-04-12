@@ -91,7 +91,7 @@
                 <div class="dropdown-imgs">
                   {foreach from=$blogs item=blog}
                     <div class="container-img-drop">
-                      <img src="/img/leoblog/b/1/{$blog.id_leoblog_blog}/1160_550/{$blog.thumb}"  loading="lazy" />
+                      <img src="/img/leoblog/b/1/{$blog.id_leoblog_blog}/1280_853/{$blog.thumb}"  loading="lazy" />
                       <h1><a href="{$blog.link_rewrite}">{$blog.meta_title}</a></h1>
                       <p><a href="{$blog.link_rewrite}">Explore Blog</a></p>
                     </div>
