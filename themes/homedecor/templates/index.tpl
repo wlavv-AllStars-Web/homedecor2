@@ -41,6 +41,7 @@
                 <img src="https://homedecor.allstars-web.com/img/cms/natal_images/A%20CASA%20DE%20CAMPO%20(2).jpg"/>
               </div>
             </section> *}
+            {* <pre>{$link->getCategoryLink(2)}</pre> *}
             <section class="studio-store">
               <div class="grid">
                 <div class="grid-item">
@@ -56,7 +57,8 @@
                 <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
                 </div>
                 <div class="grid-item visit-store-btn">
-                  <a>{l s="Visite a Nossa Loja"} <i class="arrow_right">&#8594;</i></a>
+                {* <pre>{$categories[1][2]['infos']|print_r}</pre> *}
+                  <a href="{$link->getCategoryLink(2)}">{l s="Visite a Nossa Loja"} <i class="arrow_right">&#8594;</i></a>
                 </div>
                 <div class="grid-item">
                 <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
