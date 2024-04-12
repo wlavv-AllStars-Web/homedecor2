@@ -934,9 +934,6 @@ aspect-ratio: 1;
         color: var(--secondary);
     }
 
-    .activeMenu {
-        border-bottom: 2px solid;
-    }
 
     .swiper-slide {
         display: flex !important;
