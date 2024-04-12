@@ -85,7 +85,7 @@
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop1">
                 <div class="links-dropdown">
-                  <li><a href="{$link->getCMSLink(6)}" onclick="activateLink(this)">Blog</a></li>
+                  <li><a href="/blog.html" onclick="activateLink(this)">Blog</a></li>
                   <li><a href="#" onclick="activateLink(this)">Vlog</a></li>
                 </div>
                 <div class="dropdown-imgs">
