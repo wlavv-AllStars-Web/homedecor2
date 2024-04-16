@@ -608,12 +608,18 @@ class FrontControllerCore extends Controller
         $this->getCategories();
         $this->process();
         $lang = (int)Context::getContext()->language->id;
+
+
         $blogs = Db::getInstance()->executeS('SELECT lb.thumb,lb.id_leoblog_blog, lbl.link_rewrite,lbl.meta_title FROM ps_leoblog_blog AS lb
         LEFT JOIN ps_leoblog_blog_lang AS lbl
         ON lb.id_leoblog_blog = lbl.id_leoblog_blog
         WHERE ACTIVE = 1 AND id_lang='.$lang.'
         ORDER BY lb.id_leoblog_blog DESC
         LIMIT 2
+        ');
+
+        $homepagecms = Db::getInstance()->executeS('SELECT content FROM ps_cms_lang
+        WHERE id_cms = 7 AND id_lang='.$lang.'
         ');
 
         // echo '<pre>'.print_r($blogs,1).'</pre>';
@@ -624,6 +630,7 @@ class FrontControllerCore extends Controller
 
         $this->context->smarty->assign([
             'blogs' => $blogs,
+            'homepagecms' => $homepagecms,
             'HOOK_HEADER' => Hook::exec('displayHeader'),
         ]);
     }

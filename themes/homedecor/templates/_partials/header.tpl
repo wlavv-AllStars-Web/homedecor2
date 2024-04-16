@@ -38,7 +38,7 @@
   <nav class="header-nav">
     <div class="container">
       <div class="row">
-        <div class="hidden-md-up">
+        <div class="hidden-md-down hidden-md-up">
           <div class="col-md-5 col-xs-12">
             {hook h='displayNav1'}
           </div>
@@ -72,7 +72,10 @@
               </h1>
               <small>SOUMAD | INTERIOR DESIGN</small>
             {else}
-              {renderLogo}
+              <h1>
+                {renderLogo}
+              </h1>
+              <small>SOUMAD | INTERIOR DESIGN</small>
             {/if}
           {/if}
         </div>
@@ -104,7 +107,7 @@
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop2">
               <div class="links-dropdown">
-                <li><a href="#" onclick="activateLink(this)">Projetos</a></li>
+                <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">Projetos</a></li>
                 <li><a href="/#services-section" onclick="activateLink(this)">Serviços</a></li>
                 <li><a href="/#contact-us" onclick="activateLink(this)">Contacte-nos</a></li>
               </div>
@@ -171,8 +174,42 @@
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display: none;">
         <div class="js-top-menu mobile" id="_mobile_top_menu">
         <ul class="menu_list">
-          <li class="menu-item {if $currentUrl === $link->getPageLink('index', true)}active{/if}"><a href="/">{l s='Home' d='Shop.Theme.Alambic'}</a></li>
-          <li class="menu-item" id="about-link"><a href="/#aboutus">{l s='About Us' d='Shop.Theme.Alambic'}</a></li>
+          <li class="menu-item {if $currentUrl === $link->getPageLink('index', true)}active{/if}"><a href="/">{l s='Home' d='Shop.Theme.Homedecor'}</a></li>
+          <li class="menu-item dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Lifestyle' d='Shop.Theme.Homedecor'}
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Blog' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Vlog' d='Shop.Theme.Homedecor'}</a></li>
+              </ul>
+          </li>
+          <li class="menu-item dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Design' d='Shop.Theme.Homedecor'}
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">{l s='Projetos' d='Shop.Theme.Homedecor'}</></li>
+                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Serviços' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Contacte-nos' d='Shop.Theme.Homedecor'}</a></li>
+              </ul>
+          </li>
+          <li class="menu-item dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='A Nossa Loja' d='Shop.Theme.Homedecor'}
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu drop3">
+                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Sobre Nós' d='Shop.Theme.Homedecor'}</a></li>
+              </ul>
+          </li>
+          <li class="menu-item dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Loja' d='Shop.Theme.Homedecor'}
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">Novidades</a></li>
+                {foreach from=$categories_parent item=category key=key}
+                  <li><a href="/{$category['infos']['id_category']}-{$category['infos']['link_rewrite']}" onclick="activateLink(this);">{$category['infos']['name']}</a></li>
+                {/foreach}
+                <li><a href="/{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">Todas</a></li>
+              </ul>
+          </li>
         </ul>
         </div>
         <div class="js-top-menu-bottom">

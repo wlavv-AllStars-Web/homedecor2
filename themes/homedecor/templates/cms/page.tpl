@@ -33,6 +33,105 @@
 
     {block name='cms_content'}
       {$cms.content nofilter}
+       {* <div class="projects-section">
+        <div class="project-item">
+          <div class="project-item-img">
+            <img src="https://studio-mcgee.com/wp-content/app/uploads/2024/04/studiomcgee-HoustonEstate-20230915-0668-aspect-ratio-3-4-400x533.jpg" />
+          </div>
+          <div class="project-item-content">  
+            <h1><a href="#">The Houston Estate</a></h1>
+            <h5><a href="#">Modern and traditional merge in a friendly family home.</a></h5>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-item-img">
+            <img src="https://studio-mcgee.com/wp-content/app/uploads/2024/04/studiomcgee-HoustonEstate-20230915-0668-aspect-ratio-3-4-400x533.jpg" />
+          </div>
+          <div class="project-item-content">
+            <h1><a href="#">The McGee Home Refresh</a></h1>
+            <h5><a href="#">Phase two of Syd and Shea's Utah dream home.</a></h5>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-item-img">
+            <img src="https://studio-mcgee.com/wp-content/app/uploads/2024/04/studiomcgee-HoustonEstate-20230915-0668-aspect-ratio-3-4-400x533.jpg" />
+          </div>
+          <div class="project-item-content">  
+            <h1><a href="#">The Houston Estate</a></h1>
+            <h5><a href="#">Modern and traditional merge in a friendly family home.</a></h5>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-item-img">
+            <img src="https://studio-mcgee.com/wp-content/app/uploads/2024/04/studiomcgee-HoustonEstate-20230915-0668-aspect-ratio-3-4-400x533.jpg" />
+          </div>
+          <div class="project-item-content">
+            <h1><a href="#">The McGee Home Refresh</a></h1>
+            <h5><a href="#">Phase two of Syd and Shea's Utah dream home.</a></h5>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-item-img">
+            <img src="https://studio-mcgee.com/wp-content/app/uploads/2024/04/studiomcgee-HoustonEstate-20230915-0668-aspect-ratio-3-4-400x533.jpg" />
+          </div>
+          <div class="project-item-content">  
+            <h1><a href="#">The Houston Estate</a></h1>
+            <h5><a href="#">Modern and traditional merge in a friendly family home.</a></h5>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-item-img">
+            <img src="https://studio-mcgee.com/wp-content/app/uploads/2024/04/studiomcgee-HoustonEstate-20230915-0668-aspect-ratio-3-4-400x533.jpg" />
+          </div>
+          <div class="project-item-content">
+            <h1><a href="#">The McGee Home Refresh</a></h1>
+            <h5><a href="#">Phase two of Syd and Shea's Utah dream home.</a></h5>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+      </div> *}
+      {* <style>
+        .cms-id-8 .page-header h1{
+          font-size: 4rem !important;
+          font-weight: lighter;
+          color: var(--color-text) !important;
+        }
+
+        .page-cms-8{
+          padding: 0 !important;
+        }
+        .projects-section {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 5rem 2rem;
+          background: var(--bege);
+        }
+
+        .project-item{
+
+        }
+        .project-item-img img{
+          width: 100%;
+        }
+        .project-item-content {
+          padding: 1rem 0;
+        }
+
+        .project-item-content h1{
+          color: var(--color-text);
+          font-size: 1.5rem;
+          font-weight: var(--fw-500);
+        }
+        .project-item-content h5{
+          color: var(--color-text);
+          font-size: 1.25rem;
+          font-weight: var(--fw-100);
+        }
+      </style> *}
     {/block}
 
     {block name='hook_cms_dispute_information'}

@@ -44,7 +44,7 @@
             {* <pre>{$link->getCategoryLink(2)}</pre> *}
             <section class="studio-store">
               <div class="grid">
-                <div class="grid-item">
+                {* <div class="grid-item">
                   <h1>O Nosso Estúdio / Loja<h1>
                 </div>
                 <div class="grid-item">
@@ -57,7 +57,6 @@
                 <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
                 </div>
                 <div class="grid-item visit-store-btn">
-                {* <pre>{$categories[1][2]['infos']|print_r}</pre> *}
                   <a href="{$link->getCategoryLink(2)}">{l s="Visite a Nossa Loja"} <i class="arrow_right">&#8594;</i></a>
                 </div>
                 <div class="grid-item">
@@ -66,7 +65,10 @@
                 <div class="grid-item">
                 <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
                 </div>
-              </div>
+              </div> *}
+              {* <pre>{$homepagecms|print_r}</pre>
+              <pre>{print_r($homepagecms[0]['content'],1)}</pre> *}
+              {$homepagecms[0]['content'] nofilter}
             </section>
             <section id="about-us-section" class="about-us">
               

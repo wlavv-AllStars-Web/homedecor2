@@ -23,11 +23,14 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 {block name='header_nav'}
-  <nav class="header-nav">
+  <nav class="header-nav hidden-md-down">
     <div class="container">
       <div class="row">
         <div class="col-md-6 hidden-sm-down" id="_desktop_logo">
-            {renderLogo}
+          <h1>
+          {renderLogo}
+          </h1>
+          <small>SOUMAD | INTERIOR DESIGN</small>
         </div>
         <div class="col-md-6 text-xs-right hidden-sm-down">
           {hook h='displayNav1'}

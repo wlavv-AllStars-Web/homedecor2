@@ -7,6 +7,7 @@ function toggleMyaccount() {
     myaccount.classList.toggle("myaccount-hidden")
 }
 document.addEventListener("DOMContentLoaded", () => {
+  if(window.screen.width > 768){
     const linkDropdowns = document.querySelectorAll(".menu-item.dropdown");
     if(linkDropdowns) {
     linkDropdowns.forEach(linkDropdown => {
@@ -28,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     }
+  }
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -106,8 +108,6 @@ function activateLink(link) {
       function handleImageLoadingOnHover() {
         if(hoverButton) {
         hoverButton.addEventListener('mouseover', function() {
-          console.log("Hover detected on", dropdownMenu.className);
-  
           loadImages();
         });
         }
