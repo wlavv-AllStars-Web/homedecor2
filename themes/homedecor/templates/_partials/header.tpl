@@ -79,8 +79,8 @@
             {/if}
           {/if}
         </div>
-
-        <div class="menu hidden-md-down">
+        
+        <div class="menu hidden-sm-down">
           <ul class="menu-list">
             <li class="menu-item"><a onclick="activateLink(this)" href="/">Inicio</a></li>
             <li class="menu-item dropdown">
@@ -108,7 +108,7 @@
               <ul class="dropdown-menu drop2">
               <div class="links-dropdown">
                 <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">Projetos</a></li>
-                <li><a href="/#services-section" onclick="activateLink(this)">Serviços</a></li>
+                <li><a href="{$link->getCMSLink(9)}" onclick="activateLink(this)">Serviços</a></li>
                 <li><a href="/#contact-us" onclick="activateLink(this)">Contacte-nos</a></li>
               </div>
               <div class="dropdown-imgs">
@@ -167,7 +167,7 @@
             
           </ul>
         </div>
-        <div class="header-top-right hidden-md-down col-md-2 col-sm-12 position-static">
+        <div class="header-top-right hidden-sm-down col-md-2 col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
       </div>
@@ -187,8 +187,8 @@
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Design' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu">
-                <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">{l s='Projetos' d='Shop.Theme.Homedecor'}</></li>
-                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Serviços' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">{l s='Projetos' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="{$link->getCMSLink(9)}" onclick="activateLink(this)">{l s='Serviços' d='Shop.Theme.Homedecor'}</a></li>
                 <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Contacte-nos' d='Shop.Theme.Homedecor'}</a></li>
               </ul>
           </li>

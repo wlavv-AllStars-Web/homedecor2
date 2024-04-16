@@ -43,10 +43,12 @@
       {/block}
     </div> *}
     <div class="footer-content">
-      <div class="footer-logo">{renderLogo}<small>SOUMAD | INTERIOR DESIGN</small></div>
-      <div class="footer-links">{hook h='displayFooter' mod='ps_linklist'}</div>
-      <div class="footer-address">{hook h="displayFooter" mod="ps_contactinfo"}</div>
-      <div class="footer-newsletter">
+      <div class="footer-logo col-md-12">{renderLogo}<small>SOUMAD | INTERIOR DESIGN</small></div>
+      <div>
+        <div class="footer-links  col-md-6">{hook h='displayFooter' mod='ps_linklist'}</div>
+        <div class="footer-address  col-md-6">{hook h="displayFooter" mod="ps_contactinfo"}</div>
+      </div>
+      <div class="footer-newsletter  col-md-12">
       {hook h="displayFooterBefore" mod="ps_emailsubscription"}
       {hook h="displayFooterBefore" mod="ps_socialfollow"}
       </div>

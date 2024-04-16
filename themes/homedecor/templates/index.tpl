@@ -74,7 +74,7 @@
               
               <div class="about-content">
                 <h1>Quem Somos?</h1>
-                <ul class="card">
+                <ul class="card-about">
                   <li>
                   <p>A Casa de Campo, uma marca criada em 2022, inserida na empresa SOUMAD,
                   especializada na venda de artigos de bricolagem e materiais de construção.

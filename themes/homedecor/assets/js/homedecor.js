@@ -7,7 +7,7 @@ function toggleMyaccount() {
     myaccount.classList.toggle("myaccount-hidden")
 }
 document.addEventListener("DOMContentLoaded", () => {
-  if(window.screen.width > 768){
+  if(window.screen.width > 992){
     const linkDropdowns = document.querySelectorAll(".menu-item.dropdown");
     if(linkDropdowns) {
     linkDropdowns.forEach(linkDropdown => {
@@ -107,9 +107,15 @@ function activateLink(link) {
   
       function handleImageLoadingOnHover() {
         if(hoverButton) {
-        hoverButton.addEventListener('mouseover', function() {
-          loadImages();
-        });
+          if(screen.width > 992) {
+            hoverButton.addEventListener('mouseover', function() {
+              loadImages();
+            });
+          }else{
+            hoverButton.addEventListener('click', function() {
+              loadImages();
+            });
+          }
         }
       }
   

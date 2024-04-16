@@ -22,10 +22,19 @@
  * @copyright Since 2007 PrestaShop SA and Contributors
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
-<div class="myaccount-container"  onmouseover="toggleMyaccount()" onmouseout="toggleMyaccount()">
-    <a class="text-uppercase" href="{$urls.pages.my_account}" rel="nofollow">
-      <i class="material-icons myaccount" aria-hidden="true">person</i>
-    </a>
+ <script type="text/javascript">
+    var screenWidth = screen.width;
+    {assign var='screenWidth' value=$screenWidth}
+</script>
+{if $screenWidth < 992}
+  <div class="myaccount-container"  onclick="toggleMyaccount()">
+    <i class="material-icons myaccount" aria-hidden="true">person</i>
+{else}
+  <div class="myaccount-container"  onmouseover="toggleMyaccount()" onmouseout="toggleMyaccount()">
+  <a class="text-uppercase" href="{$urls.pages.my_account}" rel="nofollow">
+    <i class="material-icons myaccount" aria-hidden="true">person</i>
+  </a>
+{/if}
 
 
   <div id="block_myaccount_infos" class="col-md-3 links wrapper myaccount-hidden">
