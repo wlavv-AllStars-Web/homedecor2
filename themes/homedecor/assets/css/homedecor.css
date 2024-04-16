@@ -1022,7 +1022,8 @@ aspect-ratio: 1;
     ul.drop2 {
         left: -46vw;
         top: 98%;
-        width: 99.1dvw;
+        /* width: 99.1dvw; */
+        width: 99dvw;
     }
     ul.drop3 {
         left: -52.3vw;
