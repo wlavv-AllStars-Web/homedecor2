@@ -1265,6 +1265,10 @@ ul.drop4{
   padding-block: .5rem;
 }
 
+#about-us-section .about-img-container {
+  height: 100% ;
+}
+
 }
 
     @media screen and (max-width:767px) {
@@ -1394,7 +1398,7 @@ ul.drop4{
       }
 
       #about-us-section .about-img-container {
-        height: 100%;
+        height: 100% ;
       }
     }
 
