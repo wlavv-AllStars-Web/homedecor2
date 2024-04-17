@@ -1739,6 +1739,10 @@ ul.drop4{
       color: var(--secondary);
     }
 
+    #blog-listing .row{
+      width: 100%;
+    }
+
     #blog-listing .leading-blog{
       display: flex;
       gap: 1rem;
