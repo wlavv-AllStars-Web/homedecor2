@@ -1728,6 +1728,11 @@ ul.drop4{
 
     /* Blogs css */
 
+    .blog-item .blog-shortinfo {
+      padding-top: 12px;
+      min-height: 72px;
+    }
+
     #module-leoblog-list #blog-listing > a {
       font-family: var(--ff) !important;
       font-weight: var(--fw-400) !important;
