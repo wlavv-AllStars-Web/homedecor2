@@ -1841,6 +1841,12 @@ ul.drop4{
       color: var(--bege);
     }
 
+    #module-leoblog-blog #blogpage .blog-description {
+      padding: 2rem 0;
+    }
+    #module-leoblog-blog #blogpage .blog-description > p{
+      color: var(--color-text);
+    }
     #module-leoblog-blog #blogpage .blog-image {
       display: flex;
       justify-content: center;
@@ -1849,7 +1855,7 @@ ul.drop4{
     #module-leoblog-blog #blogpage .blog-image img {
       height: 600px;
       width: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     .drop1 .container-img-drop img {
@@ -1931,17 +1937,106 @@ ul.drop4{
       color: var(--tertiary) !important;
     }
 
+    #module-leoblog-category .section-title{
+      font-size: 4rem;
+      font-weight: 100;
+      color: var(--color-text);
+    }
+    #module-leoblog-blog .blog-title{
+      font-size: 4rem;
+      font-weight: 100;
+      color: var(--color-text);
+    }
+    #module-leoblog-blog .breadcrumb ol li:nth-child(2){
+      display: none;
+    }
+    #module-leoblog-category .breadcrumb ol li:nth-child(2){
+      display: none;
+    }
+                  
+    #module-leoblog-category .blog-item .more{
+      background: var(--secondary);
+      border: 2px solid var(--secondary);
+    }
+    #module-leoblog-category .blog-item .more:hover{
+      background: var(--bege);
+      border: 2px solid var(--secondary);
+      color: var(--secondary);
+    }
+
+
+    #module-leoblog-category .blog-item .blog-info p{
+      display: flex;
+      justify-content: center;
+    }
+
+
+    #module-leoblog-search #wrapper #left-column .block-categories{
+      display: none;
+    }
     #module-leoblog-blog #wrapper #left-column .block-categories{
       display: none;
     }
+    #module-leoblog-category .blog-item .blog-shortinfo{
+      min-height: 92px;
+    }
+    #module-leoblog-search .blog-item .blog-shortinfo{
+      min-height: 92px;
+    }
+    #module-leoblog-blog .blog-item .blog-shortinfo{
+      min-height: 92px;
+    }
+    #module-leoblog-category .blog-image-container .title a{
+      overflow: hidden;
+      width: 376px;
+      display: block;
+      text-wrap: nowrap;
+      height: 26px;
+    }
+    #module-leoblog-search .blog-image-container .title a{
+      overflow: hidden;
+      width: 376px;
+      display: block;
+      text-wrap: nowrap;
+      height: 26px;
+    }
+    #module-leoblog-blog .blog-image-container .title a{
+      overflow: hidden;
+      width: 376px;
+      display: block;
+      text-wrap: nowrap;
+      height: 26px;
+    }
 
+    #module-leoblog-search #wrapper #left-column #search-blog{
+      background: var(--bege);
+    }
     #module-leoblog-blog #wrapper #left-column #search-blog{
       background: var(--bege);
     }
+    #module-leoblog-category #wrapper #left-column #search-blog{
+      background: var(--bege);
+    }
+
+    #module-leoblog-search #wrapper #left-column #search-blog #blog-nav a{
+      color: var(--secondary);
+    }
+    #module-leoblog-search #wrapper #left-column #search-blog #blog-nav a:hover{
+      color: var(--secondary);
+      text-decoration: underline;
+    }
+
     #module-leoblog-blog #wrapper #left-column #search-blog #blog-nav a{
       color: var(--secondary);
     }
     #module-leoblog-blog #wrapper #left-column #search-blog #blog-nav a:hover{
+      color: var(--secondary);
+      text-decoration: underline;
+    }
+    #module-leoblog-category #wrapper #left-column #search-blog #blog-nav a{
+      color: var(--secondary);
+    }
+    #module-leoblog-category #wrapper #left-column #search-blog #blog-nav a:hover{
       color: var(--secondary);
       text-decoration: underline;
     }

@@ -88,7 +88,7 @@
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop1">
                 <div class="links-dropdown">
-                  <li><a href="/blog.html" onclick="activateLink(this)">Blog</a></li>
+                  <li><a href="/blog/{$categorybloghome->link_rewrite}-c3.html" onclick="activateLink(this)">Blog</a></li>
                   <li><a href="#" onclick="activateLink(this)">Vlog</a></li>
                 </div>
                 <div class="dropdown-imgs">
@@ -97,7 +97,7 @@
                     <div class="container-img-drop">
                       <img src="/img/leoblog/b/1/{$blog.id_leoblog_blog}/0_0/{$blog.thumb}"  loading="lazy" />
                       <h1><a href="{$blog.link_rewrite}">{$blog.meta_title}</a></h1>
-                      <p><a href="{$blog.link_rewrite}">Explore Blog</a></p>
+                      <p><a href="/blog/{$blog.link_rewrite}-b{$blog.id_leoblog_blog}.html">Explore Blog</a></p>
                     </div>
                   {/foreach}
                 </div>

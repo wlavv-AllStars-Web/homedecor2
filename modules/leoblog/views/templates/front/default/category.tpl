@@ -62,7 +62,7 @@
 				<div class="clearfix"></div>
 			 
 				{if count($leading_blogs)+count($secondary_blogs)}
-					<h3 class="section-title">{l s='Recent blog posts' mod='leoblog'}</h3>
+					<h3 class="section-title">{l s='Blogs' mod='leoblog'}</h3>
 					{if count($leading_blogs)}
 					<div class="leading-blog">  
 						{foreach from=$leading_blogs item=blog name=leading_blog}
