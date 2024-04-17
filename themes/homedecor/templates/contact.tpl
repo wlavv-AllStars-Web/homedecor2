@@ -29,7 +29,16 @@
 {if $layout === 'layouts/layout-left-column.tpl'}
   {block name="left_column"}
     <div id="left-column" class="col-xs-12 col-md-4 col-lg-3">
-      {hook h='displayContactLeftColumn'}
+      {* {hook h='displayContactLeftColumn'} *}
+      <div class="grid_imgs_contact">
+                    <img data-src="/img/homedecor/cms/379917678_984244059463237_1771910755720271066_n.jpg" src="/img/homedecor/cms/379917678_984244059463237_1771910755720271066_n.jpg" class="">
+                    <img data-src="/img/homedecor/cms/379961572_1329030164389419_3547348717445586198_n.jpg" src="/img/homedecor/cms/379961572_1329030164389419_3547348717445586198_n.jpg">
+                    <img data-src="/img/homedecor/cms/381285161_334169202447972_417751304525317919_n.jpg" src="/img/homedecor/cms/381285161_334169202447972_417751304525317919_n.jpg" class="">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    
+      </div>
     </div>
   {/block}
 {else if $layout === 'layouts/layout-right-column.tpl'}
@@ -41,5 +50,11 @@
 {/if}
 
 {block name='page_content'}
+  {hook h='displayContactRightColumn'}
   {hook h='displayContactContent'}
 {/block}
+
+
+<style>
+
+</style>
