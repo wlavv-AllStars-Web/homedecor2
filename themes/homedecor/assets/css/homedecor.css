@@ -312,16 +312,16 @@ html,body{
     aspect-ratio: 1.16/1;
   }
   .grid-item:nth-child(4){
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 1.5;
   }
   .grid-item:nth-child(5){
-    aspect-ratio: 3 / 1.5;
+    aspect-ratio: 0.749;
   }
   .grid-item:nth-child(6){
-    aspect-ratio: 1;
+    aspect-ratio: 2/3.5;
   }
   .grid-item:nth-child(7){
-    aspect-ratio: 1;
+    aspect-ratio: 1/0.25;
   }
 
   .visit-store-btn {
@@ -479,11 +479,12 @@ html,body{
 .about-us{
     display: flex;
     margin: 6rem 0;
-    background-color: var(--tertiary);
+    background-color: var(--secondary);
     background-image: url("/img/homedecor/amassado.jpg");
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 2rem;
 }
 .about-content{
     flex: 1;
@@ -492,7 +493,7 @@ html,body{
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.5);
     padding: 1rem;
 }
 
@@ -523,6 +524,7 @@ html,body{
 .about-img{
     flex: 0.6;
     background: var(--bege);
+    padding: 1rem;
 }
 .about-img img{
     width: 100%;
@@ -1025,7 +1027,6 @@ aspect-ratio: 1;
       display: flex;
       flex-direction: row-reverse;
       background: var(--bg);
-      padding: 1rem;
   }
   .services-cms .services-item:nth-child(2) .content{
       padding-left: 1.5rem;
@@ -1033,6 +1034,9 @@ aspect-ratio: 1;
   .services-cms .content{
       flex: 1;
       padding-right: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
   }
   .services-cms .content h1{
       color: var(--color-text);
@@ -1040,6 +1044,7 @@ aspect-ratio: 1;
   .services-cms .content small{
       color: var(--color-text) !important;
       margin-bottom: 0.5rem;
+      font-size: 0.825rem;
   }
 
   .services-cms .content-imgs{
@@ -1203,6 +1208,8 @@ aspect-ratio: 1;
         'dec1 dec1 dec3 ';
     flex: 0.6;
     height: auto;
+    padding: 1rem;
+    background: #fff;
     }
 
   .services-cms .content-imgs .img:nth-child(1){

@@ -44,31 +44,32 @@
             {* <pre>{$link->getCategoryLink(2)}</pre> *}
             <section class="studio-store">
               <div class="grid">
-                {* <div class="grid-item">
+                <div class="grid-item">
                   <h1>O Nosso Estúdio / Loja<h1>
                 </div>
-                <div class="grid-item">
-                  <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
+                {$homepagecms[0]['content'] nofilter}
+                {* <div class="grid-item">
+                  <img src="/img/homedecor/cms/343780101_919088472753696_5887921159775929136_n.jpg">
                 </div>
                 <div class="grid-item">
-                <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
+                <img src="/img/homedecor/cms/344368189_615125877337383_1291171105475295246_n.jpg">
                 </div>
                 <div class="grid-item">
-                <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
+                <img src="/img/homedecor/cms/358354499_3523454057921431_5558494921593271571_n.jpg">
                 </div>
+                <div class="grid-item">
+                <img src="/img/homedecor/cms/384458145_2397663273769102_3839033225965701670_n.jpg">
+                </div>
+                <div class="grid-item">
+                <img src="/img/homedecor/cms/358019434_1162861741772535_1831192371707454084_n.jpg">
+                </div> *}
                 <div class="grid-item visit-store-btn">
                   <a href="{$link->getCategoryLink(2)}">{l s="Visite a Nossa Loja"} <i class="arrow_right">&#8594;</i></a>
                 </div>
-                <div class="grid-item">
-                <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
-                </div>
-                <div class="grid-item">
-                <img src="https://homedecor.allstars-web.com/img/cms/natal_images/_acasadecampo__1688662128_3141048054865921470_54089535870.jpg">
-                </div>
-              </div> *}
+              </div>
               {* <pre>{$homepagecms|print_r}</pre>
               <pre>{print_r($homepagecms[0]['content'],1)}</pre> *}
-              {$homepagecms[0]['content'] nofilter}
+              {* {$homepagecms[0]['content'] nofilter} *}
             </section>
             <section id="about-us-section" class="about-us">
               
@@ -95,13 +96,13 @@
               <div class="about-img">
                 <div class="about-img-container">
                 <div class="about-img-item">
-                  <img src="https://homedecor.allstars-web.com/img/cms/natal_images/A%20CASA%20DE%20CAMPO%20(3).jpg" />
+                  <img class="lazy" data-src="/img/homedecor/cms/343780101_919088472753696_5887921159775929136_n.jpg" />
                 </div>
                 <div class="about-img-item">
-                  <img src="https://homedecor.allstars-web.com/img/cms/natal_images/A%20CASA%20DE%20CAMPO%20(3).jpg" />
+                  <img class="lazy" data-src="/img/homedecor/cms/380174167_753614279862319_4236585611080198662_n.jpg" />
                 </div>
                 <div class="about-img-item">
-                  <img src="https://homedecor.allstars-web.com/img/cms/natal_images/A%20CASA%20DE%20CAMPO%20(3).jpg" />
+                  <img class="lazy" data-src="/img/homedecor/cms/384081414_1090141092369984_5712667536831561089_n.jpg" />
                 </div>
                 </div>
               </div>

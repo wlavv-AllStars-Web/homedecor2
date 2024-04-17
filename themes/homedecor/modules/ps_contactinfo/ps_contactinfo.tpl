@@ -36,7 +36,9 @@
 
   {* <p class="h4 text-uppercase block-contact-title hidden-sm-down">{l s='Store information' d='Shop.Theme.Global'}</p> *}
   <div id="contact-infos" class="collapse">
-    {$contact_infos.address.formatted nofilter}
+  <a href="https://maps.app.goo.gl/f5ceMxU7DUVSei8F9" target="_blank">
+  {$contact_infos.address.formatted nofilter}
+  </a>
     {if $contact_infos.phone}
       <br>
       {* [1][/1] is for a HTML tag. *}

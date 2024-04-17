@@ -113,9 +113,9 @@
               </div>
               <div class="dropdown-imgs">
                   <div class="grid_imgs_dropdown1">
-                    <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
-                    <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-                    <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                    <img data-src="/img/homedecor/cms/379917678_984244059463237_1771910755720271066_n.jpg"/>
+                    <img data-src="/img/homedecor/cms/379961572_1329030164389419_3547348717445586198_n.jpg" />
+                    <img data-src="/img/homedecor/cms/381285161_334169202447972_417751304525317919_n.jpg" />
                     <div class="design3"></div>
                     <div  class="design4"></div>
                     <div  class="design6"></div>
@@ -135,8 +135,8 @@
                 <div class="grid_imgs_dropdown3">
                       <div class="about1"></div>
                       <div class="about4"></div>
-                      <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-                      <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+                      <img data-src="/img/homedecor/cms/347734347_239851498643327_5306696242315492411_n.jpg" />
+                      <img data-src="/img/homedecor/cms/348856506_2638503946300411_2979089249470349975_n.jpg"/>
                 </div>
               </div>
               </ul>
@@ -155,9 +155,9 @@
                 </div>
                 <div class="dropdown-imgs">
                   <div class="grid_imgs_dropdown2">
-                    <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  />
-                    <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-                    <img data-src="https://images.pexels.com/photos/1444424/pexels-photo-1444424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+                    <img data-src="/img/homedecor/cms/354043757_274251058611760_3298017461754855193_n.jpg"  />
+                    <img data-src="/img/homedecor/cms/354450046_308195284871125_5395037502561805781_n.jpg" />
+                    <img data-src="/img/homedecor/cms/345639508_791061148902199_7092828806679929177_n.jpg" />
                   </div>
                 </div>
                 

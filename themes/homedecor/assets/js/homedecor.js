@@ -123,3 +123,27 @@ function activateLink(link) {
     });
   });
   
+
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const lazyImages = document.querySelectorAll(".lazy");
+
+    const observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          // Replace the src attribute with the data-src attribute value
+          img.setAttribute("src", img.getAttribute("data-src"));
+          // Remove the 'lazy' class to prevent loading it again
+          img.classList.remove("lazy");
+          // Stop observing the image
+          observer.unobserve(img);
+        }
+      });
+    });
+
+    // Observe each lazy image
+    lazyImages.forEach(image => {
+      observer.observe(image);
+    });
+  });
