@@ -1886,26 +1886,31 @@ ul.drop4{
         'term2 term5';
     }
     .terms-img div:nth-child(1){
-      background-image: url('https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-image: url('/img/homedecor/cms/380694708_247651141601233_1328095166327902998_n.jpg');
       grid-area: term1;
+      background-size: cover;
     }
     .terms-img div:nth-child(2){
-      background-image: url('https://images.pexels.com/photos/709767/pexels-photo-709767.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-image: url('/img/homedecor/cms/_acasadecampo__1701427295_3248130031715741010_54089535870.jpg');
       grid-area: term2;
+      background-size: cover;
+      background-position: right;
     }
     .terms-img div:nth-child(3){
-      background-image: url('https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-image: url('/img/homedecor/cms/379535212_279250198375129_8944159946853471965_n.jpg');
       grid-area: term3;
+      background-size: cover;
+      background-position: center;
     }
     .terms-img div:nth-child(4){
-      background-image: url('https://images.pexels.com/photos/1858196/pexels-photo-1858196.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-image: url('/img/homedecor/cms/379917678_984244059463237_1771910755720271066_n.jpg');
       grid-area: term4;
-      background-position: bottom;
+      background-size: cover;
     }
     .terms-img div:nth-child(5){
-      background-image: url('https://images.pexels.com/photos/1517145/pexels-photo-1517145.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-image: url('/img/homedecor/cms/380275836_3824073301159088_7893981013938136764_n.jpg');
       grid-area: term5;
-      background-position: -27px -73px;
+      background-size: cover;
     }
     .terms-list{
       flex: 1;
