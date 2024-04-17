@@ -609,6 +609,7 @@ class FrontControllerCore extends Controller
         $this->process();
         $lang = (int)Context::getContext()->language->id;
 
+        $category = new Leoblogcat(3, $this->context->language->id);
 
         $blogs = Db::getInstance()->executeS('SELECT lb.thumb,lb.id_leoblog_blog, lbl.link_rewrite,lbl.meta_title FROM ps_leoblog_blog AS lb
         LEFT JOIN ps_leoblog_blog_lang AS lbl
@@ -629,6 +630,7 @@ class FrontControllerCore extends Controller
         }
 
         $this->context->smarty->assign([
+            'categorybloghome' => $category,
             'blogs' => $blogs,
             'homepagecms' => $homepagecms,
             'HOOK_HEADER' => Hook::exec('displayHeader'),
