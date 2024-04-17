@@ -2366,3 +2366,176 @@ ul.drop4{
 .grid_imgs_contact div:nth-child(3) {
   grid-area: design6;
 }
+
+
+
+/* cms about us */
+.page-cms-4 {
+  padding: 0 !important;
+}
+
+.cms-id-4 .page-header {
+  display: none;
+}
+
+.aboutus-cms {
+  display: grid;
+  grid-template-areas: 
+  'a-item1 a-item2 a-item3 a-item3'
+  'a-item4 a-item5 a-item5 a-item6'
+  'a-item4 a-item7 a-item8 a-item8';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+  width: 100%;
+  background: var(--bege);
+ }
+
+ .aboutus-item{
+  width: 100%;
+ }
+ .aboutus-item p{
+  padding: 1rem;
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--color-text);
+ }
+
+ .aboutus-cms .aboutus-item:nth-child(1) {
+  grid-area: a-item1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 100;
+  background: var(--bege);
+ }
+ .aboutus-cms .aboutus-item:nth-child(2) {
+  grid-area: a-item2;
+  background-image: url('/img/homedecor/cms/379917678_984244059463237_1771910755720271066_n.jpg');
+  aspect-ratio: 1;
+  background-size: contain;
+ }
+ .aboutus-cms .aboutus-item:nth-child(3) {
+  grid-area: a-item3;
+  /* background-image: url('https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+  background-position: center;
+  background-size: cover;
+  background-color: var(--tertiary);
+ }
+ .aboutus-cms .aboutus-item:nth-child(4) {
+  grid-area: a-item4;
+  /* background-image: url('https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+  background-size: cover;
+  background-color: var(--secondary);
+ }
+ .aboutus-cms .aboutus-item:nth-child(5) {
+  grid-area: a-item5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+ }
+ .aboutus-cms .aboutus-item:nth-child(6) {
+  grid-area: a-item6;
+  background-image: url('/img/homedecor/cms/380174167_753614279862319_4236585611080198662_n.jpg');
+  aspect-ratio: 1;
+  background-size: contain;
+ }
+ .aboutus-cms .aboutus-item:nth-child(7) {
+  grid-area: a-item7;
+  background-image: url('/img/homedecor/cms/381285161_334169202447972_417751304525317919_n.jpg');
+  aspect-ratio: 1;
+  background-size: contain;
+ }
+ .aboutus-cms .aboutus-item:nth-child(8) {
+  grid-area: a-item8;
+  /* background-image: url('https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+  background-position: center;
+  background-size: cover;
+  background-color: var(--tertiary);
+ }
+
+
+ @media screen and (max-width: 1600px) {
+  .aboutus-cms {
+    display: grid;
+    grid-template-areas: 
+    'a-item1 a-item2 a-item3'
+    'a-item6 a-item5 a-item5'
+    'a-item4 a-item7 a-item8';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    background: var(--bege);
+   }
+ }
+ @media screen and (max-width: 1200px) {
+  .aboutus-cms {
+    display: grid;
+    grid-template-areas: 
+    'a-item1 a-item2'
+    'a-item5 a-item5'
+    'a-item3 a-item6 '
+    'a-item7 a-item4';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    width: 100%;
+    background: var(--bege);
+   }
+ }
+
+ @media screen and (max-width: 700px) {
+  .aboutus-cms {
+    display: grid;
+    grid-template-areas: 
+    'a-item1'
+    'a-item2'
+    'a-item5'
+    'a-item3'
+    'a-item6'
+    'a-item4'
+    'a-item8'
+    'a-item7';
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width: 100%;
+    background: var(--bege);
+    grid-template-rows: 10rem 1fr ;
+   }
+
+   .aboutus-item p {
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--color-text);
+  }
+
+   .aboutus-cms .aboutus-item:nth-child(1) {
+    font-size: 4rem;
+    aspect-ratio: 3/1;
+   }
+   .aboutus-cms .aboutus-item:nth-child(6){
+    background-size: cover;
+    height: 100%;
+   }
+   .aboutus-cms .aboutus-item:nth-child(7){
+    background-size: cover;
+    height: 100%;
+   }
+   .aboutus-cms .aboutus-item:nth-child(3){
+    aspect-ratio: 3/1;
+   }
+   .aboutus-cms .aboutus-item:nth-child(2){
+    /* display: none; */
+   }
+   .aboutus-cms .aboutus-item:nth-child(4){
+    aspect-ratio: 3/1;
+   }
+   .aboutus-cms .aboutus-item:nth-child(8){
+    /* display: none; */
+   }
+ }
