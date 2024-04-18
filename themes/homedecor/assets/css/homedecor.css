@@ -1633,6 +1633,10 @@ ul.drop4{
         grid-area: store3;
     }
 
+    .drop1 .dropdown-imgs {
+      height: unset;
+    }
+
 
     .grid_imgs_dropdown1{
         display: grid;
@@ -1644,9 +1648,7 @@ ul.drop4{
     align-content: center;
     }
 
-    .drop1 .dropdown-imgs {
-      height: unset;
-    }
+   
 
     .grid_imgs_dropdown1 img{
         object-fit: cover !important;
@@ -1693,6 +1695,7 @@ ul.drop4{
         'about3 about4 ';
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        width: 100%;
     }
 
     .grid_imgs_dropdown3 img{
@@ -1721,6 +1724,8 @@ ul.drop4{
     .grid_imgs_dropdown3 .about4 {
         background: var(--bege);
     }
+
+    
 
     .category-top-menu a{
       font-family: var(--ff);
