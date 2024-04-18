@@ -481,7 +481,7 @@ html,body{
     margin: 6rem 0;
     background-color: var(--secondary);
     background-image: url("/img/homedecor/amassado.jpg");
-    background-blend-mode: multiply;
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 2rem;
