@@ -135,7 +135,7 @@
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop3">
               <div class="links-dropdown">
-                <li><a href="/#about-us-section" onclick="activateLink(this)">Sobre Nós</a></li>
+                <li><a href="{$link->getCMSLink(4)}" onclick="activateLink(this)">Sobre Nós</a></li>
               </div>
               <div class="dropdown-imgs">
                 <div class="grid_imgs_dropdown3">
@@ -202,7 +202,7 @@
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='A Nossa Loja' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop3">
-                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Sobre Nós' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="{$link->getCMSLink(4)}" onclick="activateLink(this)">{l s='Sobre Nós' d='Shop.Theme.Homedecor'}</a></li>
               </ul>
           </li>
           <li class="menu-item dropdown">
