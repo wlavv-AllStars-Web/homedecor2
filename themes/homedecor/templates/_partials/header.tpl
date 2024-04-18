@@ -155,7 +155,9 @@
                 <div class="links-dropdown">
                 <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">Novidades</a></li>
                   {foreach from=$categories_parent item=category key=key}
+                    {if $category['infos']['id_category'] != 70}
                     <li><a href="/{$category['infos']['id_category']}-{$category['infos']['link_rewrite']}" onclick="activateLink(this);">{$category['infos']['name']}</a></li>
+                    {/if}
                   {/foreach}
                   <li><a href="/{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">Todas</a></li>
                 </div>
