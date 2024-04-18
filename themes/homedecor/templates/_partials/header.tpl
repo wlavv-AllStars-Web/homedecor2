@@ -185,7 +185,7 @@
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Lifestyle' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu">
-                <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Blog' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="/blog/{$categorybloghome->link_rewrite}-c3.html" onclick="activateLink(this)">{l s='Blog' d='Shop.Theme.Homedecor'}</a></li>
                 <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Vlog' d='Shop.Theme.Homedecor'}</a></li>
               </ul>
           </li>
