@@ -1644,6 +1644,10 @@ ul.drop4{
     align-content: center;
     }
 
+    .drop1 .dropdown-imgs {
+      height: unset;
+    }
+
     .grid_imgs_dropdown1 img{
         object-fit: cover !important;
         width: 100% !important;
