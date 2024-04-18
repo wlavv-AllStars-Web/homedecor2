@@ -1326,6 +1326,20 @@ ul.drop4{
   #_mobile_logo small {
     display: none;
   }
+
+}
+
+@media screen and (max-width:400px){
+  .about-content{
+    padding: 0.5rem;
+  }
+
+  .card-about {
+    width: 100%;
+  }
+  .card-about p{
+    font-size: 1rem;
+  }
 }
 
     @media screen and (max-width:767px) {
