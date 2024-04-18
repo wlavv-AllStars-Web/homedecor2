@@ -27,6 +27,8 @@
  {assign var="categories_parent" value=$categories[2]}
  {assign var="categories_child" value=$categories[4]}
  {assign var="currentUrl" value="http://"|cat:$smarty.server.HTTP_HOST|cat:$smarty.server.REQUEST_URI}
+ {assign var="linkMyaccount" value=$urls.pages.my_account}
+ {assign var="customerId" value=Context::getContext()->customer->id}
 
 {block name='header_banner'}
   <div class="header-banner">
@@ -51,7 +53,10 @@
             <i class="material-icons d-inline">&#xE5D2;</i>
           </div>
           <div class="float-xs-right" id="_mobile_cart"></div>
-          <div class="float-xs-right" id="_mobile_user_info"></div>
+          <div class="float-xs-right" id="_mobile_searchbar">
+            {hook h='displaySearch' mod='ps_searchbar' id_module=11}
+          </div>
+          {* <div class="float-xs-right" id="_mobile_user_info"></div> *}
           <div class="top-logo" id="_mobile_logo"></div>
           <div class="clearfix"></div>
         </div>
@@ -110,7 +115,7 @@
               <div class="links-dropdown">
                 <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">Projetos</a></li>
                 <li><a href="{$link->getCMSLink(9)}" onclick="activateLink(this)">Serviços</a></li>
-                <li><a href="/#contact-us" onclick="activateLink(this)">Contacte-nos</a></li>
+                <li><a href="{$link->getPageLink('contact',true)|escape:'html':'UTF-8'}" onclick="activateLink(this)">Contacte-nos</a></li>
               </div>
               <div class="dropdown-imgs">
                   <div class="grid_imgs_dropdown1">
@@ -215,8 +220,17 @@
         </div>
         <div class="js-top-menu-bottom">
           {* <div id="_mobile_currency_selector"></div> *}
-          <div id="_mobile_language_selector"></div>
+          <div id="_mobile_language_selector">
+           {hook h='displayNav2' mod='ps_languageselector' id_module=6}
+          </div>
           {* <div id="_mobile_contact_link"></div> *}
+          <div id="_mobile_login" class="{if $currentUrl === "http://euromus.local/en/login?back=my-account"}activeLink{/if}">
+            {if $customerId }
+            <a href="{$linkMyaccount}" style="width: fit-content;"><i class="fa-solid fa-user"></i>{l s='My account' d='Shop.Theme.Global'}</a>
+            {else}
+              <a href="{$linkMyaccount}"><i class="fa-solid fa-user"></i>{l s='Login' d='Shop.Theme.Global'}</a>
+            {/if}
+          </div>
         </div>
       </div>
     </div>
