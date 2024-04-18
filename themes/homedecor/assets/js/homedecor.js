@@ -1,11 +1,30 @@
 function toggleSearchbar() {
-    const searchbar = document.querySelector("#search_widget");
-    searchbar.classList.toggle("search-hidden")
+  const searchbar = document.querySelector("#search_widget");
+  const body = document.querySelector("#wrapper")
+  searchbar.classList.toggle("search-hidden");
+  body.addEventListener("click", clickOutsideHandler);
 }
+
+function clickOutsideHandler(event) {
+  console.log("passou aqui")
+  const searchbar = document.querySelector("#search_widget");
+  const body = document.querySelector("#wrapper")
+  // Check if the clicked element is not the search bar or its descendant
+  if (!searchbar.contains(event.target)) {
+  //     // If the search bar is visible, hide it
+      searchbar.classList.toggle("search-hidden");
+  //     // Remove the event listener after hiding the search bar
+      body.removeEventListener("click", clickOutsideHandler);
+  }
+}
+
+
+
 function toggleMyaccount() {
     const myaccount = document.querySelector("#block_myaccount_infos");
     myaccount.classList.toggle("myaccount-hidden")
 }
+
 document.addEventListener("DOMContentLoaded", () => {
   if(window.screen.width > 992){
     const linkDropdowns = document.querySelectorAll(".menu-item.dropdown");
