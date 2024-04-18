@@ -764,13 +764,13 @@ input::placeholder, textarea::placeholder{
     background-image: none !important;
 }
 
-.all-product-link {
+.all-product-link:hover {
     color: var(--bege) !important;
     background: var(--secondary);
     border: 2px solid var(--secondary);
     padding: 0.5rem 1rem;
 }
-.all-product-link:hover {
+.all-product-link {
     color: var(--secondary) !important;
     border: 2px solid var(--secondary);
     background: var(--bege);
