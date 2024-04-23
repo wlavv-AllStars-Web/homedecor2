@@ -64,5 +64,6 @@
         </p>
       </div>
     </div>
+    <div class="btn-back-top" onclick="topFunction()"><i class="fa-solid fa-arrow-up-long"></i></div>
   </div>
 </div>

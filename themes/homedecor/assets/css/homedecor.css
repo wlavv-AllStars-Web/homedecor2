@@ -2339,6 +2339,7 @@ ul.drop4{
         background: transparent;
         height: 100%;
         background: rgba(0,0,0, 0.3);
+        width: 100%;
       }
 
       .blog-container .right-block .blog-title{
@@ -2701,3 +2702,20 @@ ul.drop4{
   overflow: hidden;
   display: inline-block;
  }
+
+ .btn-back-top{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 1.5rem;
+  background: var(--secondary);
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 99999;
+}
