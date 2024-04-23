@@ -2803,3 +2803,9 @@ ul.drop4{
 #authentication .no-account a:hover{
   text-decoration: underline var(--secondary);
 }
+
+.featured-products .products-section-title {
+  font-weight: 100;
+  font-size: 2rem;
+  color: var(--color-text);
+}
