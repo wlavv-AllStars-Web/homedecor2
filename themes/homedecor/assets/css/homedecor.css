@@ -2790,3 +2790,16 @@ ul.drop4{
   color: var(--secondary);
   text-decoration: underline var(--secondary);
 }
+
+#authentication #login-form .forgot-password a {
+  color: var(--secondary);
+}
+#authentication .no-account a{
+  color: var(--secondary);
+}
+#authentication #login-form .forgot-password a:hover {
+  text-decoration: underline var(--secondary);
+}
+#authentication .no-account a:hover{
+  text-decoration: underline var(--secondary);
+}

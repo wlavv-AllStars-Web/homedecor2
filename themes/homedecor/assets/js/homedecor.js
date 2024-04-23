@@ -11,10 +11,6 @@ function toggleSearchbar() {
   });
   }else{
   searchbar[0].classList.toggle("search-hidden");
-  // const btnsubmit = searchbar[0].querySelector('i.search')
-  // btnsubmit.addEventListener("click", () => {
-  //   searchbar[1].querySelector("form").submit();
-  // });
   }
 
 
@@ -30,11 +26,11 @@ function clickOutsideHandler(event) {
 
   if(window.screen.width > 992){
     if (!searchbar[1].contains(event.target)) {
-        searchbar[1].classList.toggle("search-hidden");
+        searchbar[1].classList.add("search-hidden");
     }
   }else{
     if (!searchbar[0].contains(event.target)) {
-        searchbar[0].classList.toggle("search-hidden");
+        searchbar[0].classList.add("search-hidden");
     }
   }
 Body.removeEventListener("click", clickOutsideHandler);
@@ -44,8 +40,21 @@ Body.removeEventListener("click", clickOutsideHandler);
 
 function toggleMyaccount() {
     const myaccount = document.querySelector("#block_myaccount_infos");
+    const Body = document.querySelector("#wrapper")
     myaccount.classList.toggle("myaccount-hidden")
+
+    Body.addEventListener("click", clickOutsideHandlerMyaccount);
 }
+
+function clickOutsideHandlerMyaccount(event) {
+  const myaccount = document.querySelector("#block_myaccount_infos");
+  const Body = document.querySelector("#wrapper")
+  if (!myaccount.contains(event.target)) {
+    myaccount.classList.toggle("myaccount-hidden")
+  }
+  Body.removeEventListener("click", clickOutsideHandlerMyaccount);
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   if(window.screen.width > 992){
