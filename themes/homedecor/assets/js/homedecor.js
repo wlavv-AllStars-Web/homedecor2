@@ -1,6 +1,6 @@
 function toggleSearchbar() {
   const searchbar = document.querySelectorAll("#search_widget");
-  const body = document.querySelector("#wrapper")
+  const Body = document.querySelector("#wrapper")
   
 
   if(window.screen.width > 992){
@@ -18,21 +18,26 @@ function toggleSearchbar() {
   }
 
 
-  body.addEventListener("click", clickOutsideHandler);
+  Body.addEventListener("click", clickOutsideHandler);
 
 }
 
 
 function clickOutsideHandler(event) {
-  const searchbar = document.querySelector("#search_widget");
-  const body = document.querySelector("#wrapper")
+  const searchbar = document.querySelectorAll("#search_widget");
+  const Body = document.querySelector("#wrapper")
   // Check if the clicked element is not the search bar or its descendant
-  if (!searchbar.contains(event.target)) {
-  //     // If the search bar is visible, hide it
-      searchbar.classList.toggle("search-hidden");
-  //     // Remove the event listener after hiding the search bar
-      body.removeEventListener("click", clickOutsideHandler);
+
+  if(window.screen.width > 992){
+    if (!searchbar[1].contains(event.target)) {
+        searchbar[1].classList.toggle("search-hidden");
+    }
+  }else{
+    if (!searchbar[0].contains(event.target)) {
+        searchbar[0].classList.toggle("search-hidden");
+    }
   }
+Body.removeEventListener("click", clickOutsideHandler);
 }
 
 
