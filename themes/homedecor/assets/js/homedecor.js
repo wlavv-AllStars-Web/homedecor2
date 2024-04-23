@@ -1,15 +1,27 @@
 function toggleSearchbar() {
   const searchbar = document.querySelectorAll("#search_widget");
   const body = document.querySelector("#wrapper")
+  
+
   if(window.screen.width > 992){
   searchbar[1].classList.toggle("search-hidden");
+  const btnsubmit = searchbar[1].querySelector('i.search')
+  btnsubmit.addEventListener("click", () => {
+    searchbar[1].querySelector("form").submit();
+  });
   }else{
   searchbar[0].classList.toggle("search-hidden");
+  // const btnsubmit = searchbar[0].querySelector('i.search')
+  // btnsubmit.addEventListener("click", () => {
+  //   searchbar[1].querySelector("form").submit();
+  // });
   }
 
-    body.addEventListener("click", clickOutsideHandler);
+
+  body.addEventListener("click", clickOutsideHandler);
 
 }
+
 
 function clickOutsideHandler(event) {
   const searchbar = document.querySelector("#search_widget");
