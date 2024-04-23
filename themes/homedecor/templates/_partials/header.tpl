@@ -222,10 +222,6 @@
         </div>
         <div class="js-top-menu-bottom">
           {* <div id="_mobile_currency_selector"></div> *}
-          <div id="_mobile_language_selector">
-           {hook h='displayNav2' mod='ps_languageselector' id_module=6}
-          </div>
-          {* <div id="_mobile_contact_link"></div> *}
           <div id="_mobile_login" class="{if $currentUrl === "http://euromus.local/en/login?back=my-account"}activeLink{/if}">
             {if $customerId }
             <a href="{$linkMyaccount}" style="width: fit-content;"><i class="fa-solid fa-user"></i>{l s='My account' d='Shop.Theme.Global'}</a>
@@ -233,6 +229,12 @@
               <a href="{$linkMyaccount}"><i class="fa-solid fa-user"></i>{l s='Login' d='Shop.Theme.Global'}</a>
             {/if}
           </div>
+          <div class="email-menu">
+            <a><i class="fa-solid fa-envelope"></i>info@alembicpro.com</a>
+          </div>
+          <div id="_mobile_contact_link"></div>
+          <div id="_mobile_language_selector"></div>
+          
         </div>
       </div>
     </div>
