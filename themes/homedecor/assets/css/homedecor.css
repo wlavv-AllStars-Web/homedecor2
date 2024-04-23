@@ -2785,3 +2785,8 @@ ul.drop4{
   cursor: pointer;
   z-index: 99999;
 }
+
+.myaccount-container #block_myaccount_infos #footer_account_list a:hover{
+  color: var(--secondary);
+  text-decoration: underline var(--secondary);
+}
