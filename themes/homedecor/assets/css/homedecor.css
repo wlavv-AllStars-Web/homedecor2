@@ -76,9 +76,9 @@ html,body{
 }
 #search_widget{
     display: flex;
-    /* position: absolute;
+    position: absolute;
     right: 0;
-    top: 3rem; */
+    /* top: 3rem; */
 }
 
 #search_widget form{

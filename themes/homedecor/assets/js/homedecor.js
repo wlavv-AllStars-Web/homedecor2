@@ -1,12 +1,17 @@
 function toggleSearchbar() {
-  const searchbar = document.querySelector("#search_widget");
+  const searchbar = document.querySelectorAll("#search_widget");
   const body = document.querySelector("#wrapper")
-  searchbar.classList.toggle("search-hidden");
-  body.addEventListener("click", clickOutsideHandler);
+  if(window.screen.width > 992){
+  searchbar[1].classList.toggle("search-hidden");
+  }else{
+  searchbar[0].classList.toggle("search-hidden");
+  }
+
+    body.addEventListener("click", clickOutsideHandler);
+
 }
 
 function clickOutsideHandler(event) {
-  console.log("passou aqui")
   const searchbar = document.querySelector("#search_widget");
   const body = document.querySelector("#wrapper")
   // Check if the clicked element is not the search bar or its descendant

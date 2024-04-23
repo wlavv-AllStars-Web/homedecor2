@@ -22,8 +22,8 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="searchbar-container">
-  <i class="material-icons search" aria-hidden="true" onclick="toggleSearchbar()">search</i>
+<div class="searchbar-container" >
+  <i class="material-icons search" onclick="toggleSearchbar()" aria-hidden="true" >search</i>
 
   <div id="search_widget" class="search-widgets search-hidden" data-search-controller-url="{$search_controller_url}">
     <form method="get" action="{$search_controller_url}">
