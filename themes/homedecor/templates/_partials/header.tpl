@@ -230,7 +230,7 @@
             {/if}
           </div>
           <div class="email-menu">
-            <a><i class="fa-solid fa-envelope"></i>info@alembicpro.com</a>
+            <a href="mailto:info@acasadecampo.com"><i class="fa-solid fa-envelope"></i>info@acasadecampo.com</a>
           </div>
           <div id="_mobile_contact_link"></div>
           <div id="_mobile_language_selector"></div>
