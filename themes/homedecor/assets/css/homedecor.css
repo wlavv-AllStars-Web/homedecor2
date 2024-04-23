@@ -1102,6 +1102,10 @@ aspect-ratio: 1;
 
     @media screen and (min-width:768px) {
 
+      .elementor-1 .elementor-element.elementor-element-665a937 .blog-title{
+        width: 90%;
+      }
+
       .block-categories {
         background: var(--bege);
       }
@@ -1344,6 +1348,11 @@ ul.drop4{
   }
 }
 
+    @media screen and (min-width:768px) and (max-width:768px) {
+      .header-nav {
+        display: none !important;
+      }
+    }
     @media screen and (max-width:767px) {
       .ui-autocomplete.searchbar-autocomplete{
         top: 80px;
@@ -1423,6 +1432,10 @@ ul.drop4{
 
       .js-top-menu-bottom .language-selector ul {
         padding: 0 !important;
+      }
+
+      .touchspin-up,.touchspin-down{
+        color: var(--secondary);
       }
 
 
