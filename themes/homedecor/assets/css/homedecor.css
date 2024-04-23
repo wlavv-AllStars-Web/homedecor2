@@ -83,6 +83,8 @@ html,body{
 
 #search_widget form{
     height: 43px;
+    width: 90vw;
+    max-width: 450px;
 }
 
 #search_widget form input {
