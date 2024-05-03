@@ -24,7 +24,26 @@
  *}
 
 <span class="col-sm-3 col-md-5 hidden-sm-down sort-by">{l s='Sort by:' d='Shop.Theme.Global'}</span>
-<div class="{if !empty($listing.rendered_facets)}col-xs-8 col-sm-7{else}col-xs-12 col-sm-12{/if} col-md-9 products-sort-order dropdown">
+<div style="display: flex;">
+{* <pre>{$listing.sort_orders|print_r}</pre> *}
+
+  {foreach from=$listing.sort_orders item=sort_order}
+    {if $sort_order.field === "price"}
+    <a
+      rel="nofollow"
+      href="{$sort_order.url}"
+      class="select-list {['current' => $sort_order.current, 'js-search-link' => true]|classnames}"
+      style="color: var(--secondary);"
+    >
+      <div style="margin-left:1rem;">
+      {if $sort_order.direction === "asc"}<i class="fa-solid fa-arrow-up-long"></i>{else} <i class="fa-solid fa-arrow-down-long"></i>{/if}
+      €
+      </div>
+    </a>
+    {/if}
+  {/foreach}
+</div>
+{* <div class="{if !empty($listing.rendered_facets)}col-xs-8 col-sm-7{else}col-xs-12 col-sm-12{/if} col-md-9 products-sort-order dropdown">
   <button
     class="btn-unstyle select-title"
     rel="nofollow"
@@ -46,4 +65,4 @@
       </a>
     {/foreach}
   </div>
-</div>
+</div> *}
