@@ -2658,6 +2658,7 @@ ul.drop4{
   font-size: 1.25rem;
   margin: 0;
   color: var(--color-text);
+  line-height: 1.85rem;
  }
 
  .aboutus-cms .aboutus-item:nth-child(1) {
