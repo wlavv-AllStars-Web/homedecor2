@@ -875,7 +875,7 @@ aspect-ratio: 1;
         color:var(--secondary);
       }
       .tabs .nav-tabs .nav-link {
-        border-bottom: var(--secondary) 3px solid;
+        /* border-bottom: var(--secondary) 3px solid; */
         color:var(--tertiary);
       }
 
