@@ -2248,10 +2248,11 @@ ul.drop4{
     }
     #module-leoblog-category .blog-image-container .title a{
       overflow: hidden;
-      width: 376px;
+      width: 506px;
       display: block;
-      text-wrap: nowrap;
       height: 29px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
     #module-leoblog-search .blog-image-container .title a{
       overflow: hidden;
