@@ -33,8 +33,10 @@
               <a href="{$node.link}">{$node.name}</a>
               {if $node.children}
                 <div class="navbar-toggler collapse-icons" data-toggle="collapse" data-target="#exCollapsingNavbar{$node.id}">
-                  <i class="material-icons add">&#xE145;</i>
-                  <i class="material-icons remove">&#xE15B;</i>
+                  {* <i class="material-icons add">&#xE145;</i>
+                  <i class="material-icons remove">&#xE15B;</i> *}
+                  <i class="fa-solid fa-chevron-down add"></i>
+                  <i class="fa-solid fa-chevron-up remove"></i>
                 </div>
                 <div class="collapse" id="exCollapsingNavbar{$node.id}">
                   {categories nodes=$node.children depth=$depth+1}
