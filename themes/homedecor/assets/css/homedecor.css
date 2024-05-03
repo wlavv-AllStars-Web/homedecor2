@@ -2104,7 +2104,7 @@ ul.drop4{
     }
 
     #module-leoblog-category .blog-item {
-      padding: 0;
+      padding: 0 0 3rem 0;
     }
     #module-leoblog-category .blog-item .blog-image {
       padding: 0;
