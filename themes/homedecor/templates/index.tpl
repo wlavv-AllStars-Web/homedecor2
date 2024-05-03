@@ -27,7 +27,6 @@
     {block name='page_content_container'}
       <section id="content" class="page-home">
         {block name='page_content_top'}{/block}
-
         {block name='page_content'}
           {block name='hook_home'}
             <section class="articles-blog">
@@ -142,7 +141,6 @@
               </div>
             </section>
             <section id="contact-us" class="contact-homepage">
-              <h1>Agende a sua reunião.</h1>
               {hook h='displayContactContent' mod='contactform' id_module=25}
             </section>
             
