@@ -89,7 +89,9 @@
 
 						{if $blog->preview_url && $config->get('item_show_image','1')}
 							<div class="blog-image">
-								<img loading="lazy" {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="{$blog->preview_url|escape:'html':'UTF-8'}" alt="{$blog->meta_title|escape:'html':'UTF-8'}" title="{$blog->meta_title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" />
+							{* <pre>{$blog|print_r}</pre> *}
+								<img loading="lazy" {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="/themes/homedecor/assets/img/modules/leoblog/1/b/{$blog->thumb|escape:'html':'UTF-8'}" alt="{$blog->meta_title|escape:'html':'UTF-8'}" title="{$blog->meta_title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" />
+								{* <img loading="lazy" {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="{$blog->preview_url|escape:'html':'UTF-8'}" alt="{$blog->meta_title|escape:'html':'UTF-8'}" title="{$blog->meta_title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" /> *}
 							</div>
 						{/if}
 
