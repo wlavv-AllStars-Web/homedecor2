@@ -180,11 +180,11 @@ class AdminLeoblogBlogsController extends ModuleAdminController
                 ),
                 array(
                     'type' => 'file',
-                    'label' => $this->l('Image'),
+                    'label' => $this->l('Image Vertical (Blog List)'),
                     'name' => 'image_link',
                     'display_image' => true,
                     'default' => '',
-                    'desc' => $this->l('Resolution: 1280x853 ;Max file size is: ').($this->max_image_size/1024/1024). 'MB',
+                    'desc' => $this->l('Resolution: 540x718 ;Max file size is: ').($this->max_image_size/1024/1024). 'MB',
                     'thumb' => $thumb,
                     // 'image' => $thumb,
                     // 'delete_url' => self::$currentIndex.'&'.$this->identifier.'=a&token='.$this->token.'&deleteImage=1',
@@ -197,7 +197,7 @@ class AdminLeoblogBlogsController extends ModuleAdminController
                 ),
                 array(
                     'type' => 'file',
-                    'label' => $this->l('Thumb image'),
+                    'label' => $this->l('Thumb image (Slider Homepage, Blog Page)'),
                     'name' => 'thumb_link',
                     'display_image' => true,
                     'default' => '',
