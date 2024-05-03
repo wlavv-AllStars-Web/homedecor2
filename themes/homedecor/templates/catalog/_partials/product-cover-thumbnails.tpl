@@ -65,6 +65,7 @@
   {block name='product_images'}
     <div class="js-qv-mask mask">
       <ul class="product-images js-qv-product-images">
+      {if $product.images|count > 1}
         {foreach from=$product.images item=image}
           <li class="thumb-container js-thumb-container">
             <picture>
@@ -90,6 +91,7 @@
             </picture>
           </li>
         {/foreach}
+      {/if}
       </ul>
     </div>
   {/block}
