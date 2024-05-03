@@ -130,23 +130,11 @@
                 </div>
               </ul>
             </li>
-            <li class="menu-item dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">A Nossa Loja
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu drop3">
-              <div class="links-dropdown">
-                <li><a href="{$link->getCMSLink(4)}" onclick="activateLink(this)">Sobre Nós</a></li>
-              </div>
-              <div class="dropdown-imgs">
-                <div class="grid_imgs_dropdown3">
-                      <div class="about1"></div>
-                      <div class="about4"></div>
-                      <img data-src="/img/homedecor/cms/347734347_239851498643327_5306696242315492411_n.jpg" />
-                      <img data-src="/img/homedecor/cms/348856506_2638503946300411_2979089249470349975_n.jpg"/>
-                </div>
-              </div>
-              </ul>
+
+            <li class="menu-item">
+              <a href="{$link->getCMSLink(4)}" onclick="activateLink(this)">{l s='Sobre Nós' d='Shop.Theme.Homedecor'}</a>
             </li>
+
             <li class="menu-item dropdown">
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Loja
               <span class="caret"></span></button>
@@ -200,13 +188,11 @@
                 <li><a href="/#about-us-section" onclick="activateLink(this)">{l s='Contacte-nos' d='Shop.Theme.Homedecor'}</a></li>
               </ul>
           </li>
-          <li class="menu-item dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='A Nossa Loja' d='Shop.Theme.Homedecor'}
-              <span class="caret"></span></button>
-              <ul class="dropdown-menu drop3">
-                <li><a href="{$link->getCMSLink(4)}" onclick="activateLink(this)">{l s='Sobre Nós' d='Shop.Theme.Homedecor'}</a></li>
-              </ul>
+
+          <li class="menu-item">
+            <a href="{$link->getCMSLink(4)}" onclick="activateLink(this)">{l s='Sobre Nós' d='Shop.Theme.Homedecor'}</a>
           </li>
+
           <li class="menu-item dropdown">
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Loja' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
