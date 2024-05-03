@@ -87,9 +87,9 @@
         
         <div class="menu hidden-sm-down">
           <ul class="menu-list">
-            <li class="menu-item"><a onclick="activateLink(this)" href="/">Inicio</a></li>
+            <li class="menu-item"><a onclick="activateLink(this)" href="/">{l s='Inicio' d='Shop.Theme.Homedecor'}</a></li>
             <li class="menu-item dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Lifestyle
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Lifestyle' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop1">
                 <div class="links-dropdown">
@@ -102,20 +102,20 @@
                     <div class="container-img-drop">
                       <img src="/img/leoblog/b/1/{$blog.id_leoblog_blog}/0_0/{$blog.thumb}"  loading="lazy" />
                       <h1><a href="{$blog.link_rewrite}">{$blog.meta_title}</a></h1>
-                      <p><a href="/blog/{$blog.link_rewrite}-b{$blog.id_leoblog_blog}.html">Explore Blog</a></p>
+                      <p><a href="/blog/{$blog.link_rewrite}-b{$blog.id_leoblog_blog}.html">{l s='Explore Blog' d='Shop.Theme.Homedecor'}</a></p>
                     </div>
                   {/foreach}
                 </div>
               </ul>
             </li>
             <li class="menu-item dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Design
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Design' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop2">
               <div class="links-dropdown">
-                <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">Projetos</a></li>
-                <li><a href="{$link->getCMSLink(9)}" onclick="activateLink(this)">Serviços</a></li>
-                <li><a href="{$link->getPageLink('contact',true)|escape:'html':'UTF-8'}" onclick="activateLink(this)">Contacte-nos</a></li>
+                <li><a href="{$link->getCMSLink(8)}" onclick="activateLink(this)">{l s='Projetos' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="{$link->getCMSLink(9)}" onclick="activateLink(this)">{l s='Serviços' d='Shop.Theme.Homedecor'}</a></li>
+                <li><a href="{$link->getPageLink('contact',true)|escape:'html':'UTF-8'}" onclick="activateLink(this)">{l s='Contacte-nos' d='Shop.Theme.Homedecor'}</a></li>
               </div>
               <div class="dropdown-imgs">
                   <div class="grid_imgs_dropdown1">
@@ -136,18 +136,18 @@
             </li>
 
             <li class="menu-item dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Loja
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Loja' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu drop4">
               {* <pre>{$categories_child|print_r}</pre> *}
                 <div class="links-dropdown">
-                <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">Novidades</a></li>
+                <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">{l s='Novidades' d='Shop.Theme.Homedecor'}</a></li>
                   {foreach from=$categories_parent item=category key=key}
                     {if $category['infos']['id_category'] != 70}
                     <li><a href="/{$category['infos']['id_category']}-{$category['infos']['link_rewrite']}" onclick="activateLink(this);">{$category['infos']['name']}</a></li>
                     {/if}
                   {/foreach}
-                  <li><a href="/{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">Todas</a></li>
+                  <li><a href="/{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">{l s='Todas' d='Shop.Theme.Homedecor'}</a></li>
                 </div>
                 <div class="dropdown-imgs">
                   <div class="grid_imgs_dropdown2">
@@ -197,11 +197,11 @@
               <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">{l s='Loja' d='Shop.Theme.Homedecor'}
               <span class="caret"></span></button>
               <ul class="dropdown-menu">
-                <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">Novidades</a></li>
+                <li><a href="/index.php?controller=new-products" onclick="activateLink(this)">{l s='Novidades' d='Shop.Theme.Homedecor'}</a></li>
                 {foreach from=$categories_parent item=category key=key}
                   <li><a href="/{$category['infos']['id_category']}-{$category['infos']['link_rewrite']}" onclick="activateLink(this);">{$category['infos']['name']}</a></li>
                 {/foreach}
-                <li><a href="/{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">Todas</a></li>
+                <li><a href="/{$category_home.id_category}-{$category_home.link_rewrite}" onclick="activateLink(this)">{l s='Todas' d='Shop.Theme.Homedecor'}</a></li>
               </ul>
           </li>
         </ul>

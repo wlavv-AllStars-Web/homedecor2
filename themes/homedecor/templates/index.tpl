@@ -44,7 +44,7 @@
             <section class="studio-store">
               <div class="grid">
                 <div class="grid-item">
-                  <h1>O Nosso Estúdio / Loja<h1>
+                  <h1>{l s='O Nosso Estúdio / Loja' d='Shop.Theme.Homedecor'}<h1>
                 </div>
                 {$homepagecms[0]['content'] nofilter}
                 {* <div class="grid-item">
@@ -63,7 +63,7 @@
                 <img src="/img/homedecor/cms/358019434_1162861741772535_1831192371707454084_n.jpg">
                 </div> *}
                 <div class="grid-item visit-store-btn">
-                  <a href="{$link->getCategoryLink(2)}">{l s="Visite a Nossa Loja"} <i class="arrow_right">&#8594;</i></a>
+                  <a href="{$link->getCategoryLink(2)}">{l s="Visite a Nossa Loja" d='Shop.Theme.Homedecor'} <i class="arrow_right">&#8594;</i></a>
                 </div>
               </div>
               {* <pre>{$homepagecms|print_r}</pre>
@@ -73,22 +73,22 @@
             <section id="about-us-section" class="about-us">
               
               <div class="about-content">
-                <h1>Quem Somos?</h1>
+                <h1>{l s='Quem Somos?' d='Shop.Theme.Homedecor'}</h1>
                 <ul class="card-about">
                   <li>
-                  <p>A Casa de Campo, uma marca criada em 2022, inserida na empresa SOUMAD,
+                  <p>{l s='A Casa de Campo, uma marca criada em 2022, inserida na empresa SOUMAD,
                   especializada na venda de artigos de bricolagem e materiais de construção.
                   A nossa missão é proporcionar um acompanhamento de excelência, permitindo aos
                   nossos clientes uma vida mais serena, transformando as suas habitações em
-                  espaços práticos e acolhedores.</p>
+                  espaços práticos e acolhedores.' d='Shop.Theme.Homedecor'}</p>
                   </li>
                   <li>
-                  <p>Sob a liderança de Bárbara de Sousa, designer, a Casa de Campo une o design de
+                  <p>{l s='Sob a liderança de Bárbara de Sousa, designer, a Casa de Campo une o design de
                   interiores à venda de artigos de decoração para interior e exterior. Surgimos da
                   necessidade de expandir o negócio já existente na SOUMAD, uma empresa familiar
                   fundada em 2000, indo além da venda de produtos de bricolagem e materiais de
                   construção para incluir também artigos decorativos e projetos de design de
-                  interiores.</p>
+                  interiores.' d='Shop.Theme.Homedecor'}</p>
                   </li>
                 </ul>
               </div>
@@ -107,35 +107,35 @@
               </div>
             </section>
             <section id="services-section" class="our-services">
-              <h1>Os Nossos Serviços</h1>
+              <h1>{l s='Os Nossos Serviços' d='Shop.Theme.Homedecor'}</h1>
               <div class="services_content">
                 <div class="design">
                   <i class="fa-solid fa-ruler-combined"></i>
-                  <h3>Design de Interiores</h3>
-                  <p>Criamos espaços equilibrados, que combinam classe e
+                  <h3>{l s='Design de Interiores' d='Shop.Theme.Homedecor'}</h3>
+                  <p>{l s='Criamos espaços equilibrados, que combinam classe e
                   contemporaneidade. A componente criativa é liderada pela designer de interiores
-                  Bárbara de Sousa.</p>
+                  Bárbara de Sousa.' d='Shop.Theme.Homedecor'}</p>
                 </div>
                 <div class="shop">
                   <i class="fa-solid fa-store"></i>
-                  <h3>Venda de Artigos de Decoração</h3>
-                  <p>A nossa loja oferece uma
+                  <h3>{l s='Venda de Artigos de Decoração' d='Shop.Theme.Homedecor'}</h3>
+                  <p>{l s='A nossa loja oferece uma
                   vasta gama de artigos, desde decoração elegante até produtos práticos para o dia a
-                  dia.</p>
+                  dia.' d='Shop.Theme.Homedecor'}</p>
                 </div>
                 <div  class="product-design">
                   <i class="fa-solid fa-pen-ruler"></i>
-                  <h3>Design de Produto</h3>
-                  <p>Muitas das peças de mobiliário apresentadas são exclusivas.
+                  <h3>{l s='Design de Produto' d='Shop.Theme.Homedecor'}</h3>
+                  <p>{l s='Muitas das peças de mobiliário apresentadas são exclusivas.
                   Além disso, estabelecemos parcerias e colaborações com designers e arquitetos para
-                  fabricar as suas peças desenhadas.</p>
+                  fabricar as suas peças desenhadas.' d='Shop.Theme.Homedecor'}</p>
                 </div>
                 <div  class="social-content">
                   <i class="fa-solid fa-camera-retro"></i>
-                  <h3>Conteúdo Editorial</h3>
-                  <p>A mais recente componente da nossa marca, integrada no nosso
+                  <h3>{l s='Conteúdo Editorial' d='Shop.Theme.Homedecor'}</h3>
+                  <p>{l s='A mais recente componente da nossa marca, integrada no nosso
                   site e nas nossas redes sociais, visa partilhar um estilo de vida que combina arte,
-                  design, gastronomia, moda e viagens.</p>
+                  design, gastronomia, moda e viagens.' d='Shop.Theme.Homedecor'}</p>
                 </div>
                
               </div>
