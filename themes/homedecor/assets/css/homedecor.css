@@ -2098,6 +2098,18 @@ ul.drop4{
       object-fit: contain;
     }
 
+    #module-leoblog-category .blog-image-container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    #module-leoblog-category .blog-item {
+      padding: 0;
+    }
+    #module-leoblog-category .blog-item .blog-image {
+      padding: 0;
+    }
+
     .drop1 .container-img-drop img {
       height: 100%;
       object-fit: cover;
