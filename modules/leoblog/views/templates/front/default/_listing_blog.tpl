@@ -82,7 +82,7 @@
 		{if $blog.image && $config->get('listing_show_image',1)}
 		<div class="blog-image">
 			<a href="{$blog.link|escape:'html':'UTF-8'}" title="{$blog.title|escape:'html':'UTF-8'}">
-				<img loading="lazy"  {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="{$blog.preview_url|escape:'html':'UTF-8'}" title="{$blog.title|escape:'html':'UTF-8'}" alt="{$blog.title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" />
+				<img loading="lazy"  {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="/themes/homedecor/assets/img/modules/leoblog/1/b/{$blog.image|escape:'html':'UTF-8'}" title="{$blog.title|escape:'html':'UTF-8'}" alt="{$blog.title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" />
 			</a>
 		</div>
 		{/if}
