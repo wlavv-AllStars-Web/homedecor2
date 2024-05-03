@@ -58,7 +58,7 @@
         <p class="text-sm-center">
           {block name='copyright_link'}
             <a class="copyright" href="{$link->getCMSLink(3)}" target="_blank" rel="noopener noreferrer nofollow">
-              {l s='A CASA DE CAMPO © 2024. %reservados%' sprintf=['%reservados%' => 'Todos os direitos reservados.'] d='Shop.Theme.Global'}
+              {l s='A CASA DE CAMPO © 2024. Todos os direitos reservados.' d='Shop.Theme.Homedecor'}
             </a>
           {/block}
         </p>
