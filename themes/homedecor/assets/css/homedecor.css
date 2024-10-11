@@ -2334,6 +2334,11 @@ ul.drop4{
       display: none;
     }
 
+    #cart .cart-item .product-line-grid {
+      display: flex;
+      align-items: center;
+    }
+
 @media screen and (max-width:768px) {
   .terms-img {
     flex: 0.8;
