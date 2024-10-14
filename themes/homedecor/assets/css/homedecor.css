@@ -1008,8 +1008,24 @@ aspect-ratio: 1;
         border-radius: 2px;
     }
     
-    .page-cms-2 h3,.page-cms-2 h2{
+    .page-cms-2 h3{
+      color: var(--color-text);
+      padding-top: 1.5rem;
+      padding-bottom: .5rem;
+    }
+    .page-cms-2 h4{
       color: var(--secondary);
+      font-size: 1rem;
+      padding-left: .5rem;
+    }
+    .page-cms-2 h5{
+      color: var(--color-text-200);
+      font-size: 1rem;
+      padding-left: .5rem;
+    }
+    .page-cms-2 a{
+      color: var(--secondary);
+      text-decoration: underline;
     }
     
 
@@ -2185,7 +2201,12 @@ ul.drop4{
         'term1 term3'
         'term1 term4'
         'term2 term4'
-        'term2 term5';
+        'term2 term5'
+        'term6 term5'
+        'term6 term7'
+        'term8 term7'
+        'term8 term9'
+        'term10 term9';
     }
     .terms-img div:nth-child(1){
       background-image: url('/img/homedecor/cms/380694708_247651141601233_1328095166327902998_n.jpg');
@@ -2214,8 +2235,36 @@ ul.drop4{
       grid-area: term5;
       background-size: cover;
     }
+    .terms-img div:nth-child(6){
+      background-image: url('/img/homedecor/cms/380694708_247651141601233_1328095166327902998_n.jpg');
+      grid-area: term6;
+      background-size: cover;
+    }
+    .terms-img div:nth-child(7){
+      background-image: url('/img/homedecor/cms/_acasadecampo__1701427295_3248130031715741010_54089535870.jpg');
+      grid-area: term7;
+      background-size: cover;
+      background-position: right;
+    }
+    .terms-img div:nth-child(8){
+      background-image: url('/img/homedecor/cms/379535212_279250198375129_8944159946853471965_n.jpg');
+      grid-area: term8;
+      background-size: cover;
+      background-position: center;
+    }
+    .terms-img div:nth-child(9){
+      background-image: url('/img/homedecor/cms/379917678_984244059463237_1771910755720271066_n.jpg');
+      grid-area: term9;
+      background-size: cover;
+    }
+    .terms-img div:nth-child(10){
+      background-image: url('/img/homedecor/cms/380275836_3824073301159088_7893981013938136764_n.jpg');
+      grid-area: term10;
+      background-size: cover;
+    }
     .terms-list{
       flex: 1;
+      padding: 0 1rem;
     }
     .terms-list li{
       margin-bottom: 2rem;
