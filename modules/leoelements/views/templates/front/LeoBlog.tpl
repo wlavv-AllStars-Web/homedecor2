@@ -64,7 +64,7 @@
 			{if isset($formAtts.bleoblogs_sima) && $formAtts.bleoblogs_sima}
                             {if isset($formAtts) && isset($formAtts.lazyload) && $formAtts.lazyload}
                                     {* ENABLE LAZY LOAD OWL_CAROUSEL *}
-				<img loading="lazy" class="img-fluid lazyOwl" src="" data-src="{if (isset($blog.preview_thumb_url) && $blog.preview_thumb_url != '')}{$blog.preview_thumb_url}{else}{$blog.preview_url}{/if}{*full url can not escape*}" 
+				<img loading="lazy" class="img-fluid lazyOwl" src="{if (isset($blog.preview_thumb_url) && $blog.preview_thumb_url != '')}{$blog.preview_thumb_url}{else}{$blog.preview_url}{/if}{*full url can not escape*}" 
 					 alt="{if !empty($blog.legend)}{$blog.legend|escape:'html':'UTF-8'}{else}{$blog.title|escape:'html':'UTF-8'}{/if}" 
 					 title="{if !empty($blog.legend)}{$blog.legend|escape:'html':'UTF-8'}{else}{$blog.title|escape:'html':'UTF-8'}{/if}" 
 					 {if isset($formAtts.bleoblogs_width)}width="{$formAtts.bleoblogs_width|escape:'html':'UTF-8'}" {/if}
