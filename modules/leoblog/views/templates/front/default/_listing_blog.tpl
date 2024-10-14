@@ -89,7 +89,7 @@
 	</div>
 	<div class="blog-info">
 		{if $config->get('listing_show_description','1')}
-			<div class="blog-shortinfo">
+		<div class="blog-shortinfo" style="display: none;">
 				{$blog.description|strip_tags:'UTF-8'|truncate:160:'...'|cleanHtml nofilter}{* HTML form , no escape necessary *}
 			</div>
 		{/if}
