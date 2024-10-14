@@ -86,22 +86,24 @@
 							</span>
 							{/if}
 						</div>
-
-						{if $blog->preview_url && $config->get('item_show_image','1')}
-							<div class="blog-image">
+						
+						<div style="display: flex;">
+						{* <pre>{$blog|print_r}</pre> *}
+							{if $blog->preview_url && $config->get('item_show_image','1')}
+							<div class="blog-image" style="width: 540px;">
 							{* <pre>{$blog|print_r}</pre> *}
-								<img loading="lazy" {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="/themes/homedecor/assets/img/modules/leoblog/1/b/{$blog->thumb|escape:'html':'UTF-8'}" alt="{$blog->meta_title|escape:'html':'UTF-8'}" title="{$blog->meta_title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" />
+								<img loading="lazy" {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="{$blog->image_url|escape:'html':'UTF-8'}" alt="{$blog->meta_title|escape:'html':'UTF-8'}" title="{$blog->meta_title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" />
 								{* <img loading="lazy" {if isset($aplazyload) && $aplazyload}data-src{else}src{/if}="{$blog->preview_url|escape:'html':'UTF-8'}" alt="{$blog->meta_title|escape:'html':'UTF-8'}" title="{$blog->meta_title|escape:'html':'UTF-8'}" class="img-fluid{if isset($aplazyload) && $aplazyload} lazy{/if}" /> *}
 							</div>
-						{/if}
-
-						<div class="blog-description">
-							{if $config->get('item_show_description',1)}
-								{$blog->description nofilter}{* HTML form , no escape necessary *}
 							{/if}
-							{$blog->content nofilter}{* HTML form , no escape necessary *}
+
+							<div class="blog-description" style="flex: 1;padding: 2rem;">
+								{if $config->get('item_show_description',1)}
+									{$blog->description nofilter}{* HTML form , no escape necessary *}
+								{/if}
+								{$blog->content nofilter}{* HTML form , no escape necessary *}
+							</div>
 						</div>
-						
 						
 
 						{if trim($blog->video_code)}

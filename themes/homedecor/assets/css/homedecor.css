@@ -10,6 +10,7 @@
     --tertiary: #84876c;
     --bege: #f2ede7;
     --color-text: #2c2c2c;
+    --color-text-200: #666;
     --ff: "Lora", serif;
     --fw-100:100;
     --fw-200:200;
@@ -2099,6 +2100,13 @@ ul.drop4{
       height: 853px;
       width: 100%;
       object-fit: contain;
+    }
+
+    .blog-description p strong span{
+      color: var(--color-text) !important;
+    }
+    .blog-description p span{
+      color: var(--color-text-200) !important;
     }
 
     #module-leoblog-category .blog-image-container{
