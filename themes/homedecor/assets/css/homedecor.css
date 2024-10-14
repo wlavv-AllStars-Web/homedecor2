@@ -444,6 +444,7 @@ html,body{
     margin: 6rem 0;
     background-image: url("/img/homedecor/bg_pattern_contact.jpg");
     background-blend-mode: multiply;
+    background-size: contain;
   }
 
   .contact-homepage h1 {
