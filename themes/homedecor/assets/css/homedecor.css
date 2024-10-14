@@ -2102,6 +2102,10 @@ ul.drop4{
       object-fit: contain;
     }
 
+    .blog-description p{
+      font-size: 14px !important;
+    }
+
     .blog-description p strong span{
       color: var(--color-text) !important;
     }
