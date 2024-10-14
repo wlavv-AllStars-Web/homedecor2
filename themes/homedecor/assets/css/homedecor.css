@@ -2086,7 +2086,7 @@ ul.drop4{
     }
 
     #module-leoblog-blog #blogpage .blog-description {
-      padding: 2rem 0;
+      padding: 2rem;
     }
     #module-leoblog-blog #blogpage .blog-description > p{
       color: var(--color-text);
@@ -2129,7 +2129,6 @@ ul.drop4{
     }
     #blogpage .container-blog-content .blog-description{
       flex: 1;
-      padding: 2rem;
     }
 
     .drop1 .container-img-drop img {
