@@ -2114,6 +2114,22 @@ ul.drop4{
       color: var(--color-text-200) !important;
     }
 
+    .link-top-blog{
+      display: none;
+    }
+
+    .slick-slide .blog-title{
+      text-align: center !important;
+    
+    }
+    .slick-slide .blog-desc{
+      text-align: center !important;
+    }
+
+    .slick-slide .blog-image-container{
+      max-height: 560px;
+    }
+
     #module-leoblog-category .blog-image-container{
       display: flex;
       flex-direction: column-reverse;
