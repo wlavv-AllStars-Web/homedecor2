@@ -177,7 +177,6 @@ html,body{
 
 .blog-container{
     display: flex;
-    border-radius: 0.25rem;
     overflow: hidden;
 }
 .blog-container .left-block{
@@ -760,7 +759,7 @@ input::placeholder, textarea::placeholder{
 }
 
 .product-miniature .thumbnail-container {
-    border-radius: 0.25rem;
+    /* border-radius: 0.25rem; */
     padding: 1rem;
 }
 .product-miniature .product-description {
