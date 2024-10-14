@@ -436,12 +436,14 @@ html,body{
   .contact-homepage{
     margin: auto;
     padding: 2rem 2rem 4rem 2rem;
-    background: var(--secondary);
+    background-color: var(--secondary);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 6rem 0;
+    background-image: url("/img/homedecor/bg_pattern_contact.jpg");
+    background-blend-mode: multiply;
   }
 
   .contact-homepage h1 {
