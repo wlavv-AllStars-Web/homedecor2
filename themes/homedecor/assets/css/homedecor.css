@@ -177,6 +177,8 @@ html,body{
 
 .blog-container{
     display: flex;
+    border-radius: 0.25rem;
+    overflow: hidden;
 }
 .blog-container .left-block{
     flex: 1;
@@ -190,7 +192,7 @@ html,body{
     background: #fff;
 }
 .blog-container .right-block h5 a{
-    color: var(--secondary);
+    color: var(--color-text);
     font-size: 1.2rem;
 }
 .blog-container .right-block .blog-desc{
@@ -758,7 +760,7 @@ input::placeholder, textarea::placeholder{
 }
 
 .product-miniature .thumbnail-container {
-    border-radius: 0.5rem;
+    border-radius: 0.25rem;
     padding: 1rem;
 }
 .product-miniature .product-description {
@@ -2111,6 +2113,9 @@ ul.drop4{
     }
 
     .blog-description p strong span{
+      color: var(--color-text) !important;
+    }
+    .blog-description strong span{
       color: var(--color-text) !important;
     }
     .blog-description p span{
