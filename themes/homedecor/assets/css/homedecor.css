@@ -2121,6 +2121,17 @@ ul.drop4{
       padding: 0;
     }
 
+    #blogpage .container-blog-content{
+      display: flex;
+    }
+    #blogpage .container-blog-content .blog-image{
+      min-width: 540px;
+    }
+    #blogpage .container-blog-content .blog-description{
+      flex: 1;
+      padding: 2rem;
+    }
+
     .drop1 .container-img-drop img {
       height: 100%;
       object-fit: cover;
