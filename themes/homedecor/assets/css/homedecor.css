@@ -2104,6 +2104,7 @@ ul.drop4{
 
     .blog-description p{
       font-size: 14px !important;
+      color: var(--color-text-200) !important;
     }
 
     .blog-description p strong span{
