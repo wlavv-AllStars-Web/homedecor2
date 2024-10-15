@@ -2720,16 +2720,25 @@ ul.drop4{
 
       .contact-homepage{
         padding: 0;
-        background: var(--bege);
+        background: var(--secondary);
+        background-image: url("/img/homedecor/bg_pattern_contact.jpg") !important;
+        background-blend-mode: multiply;
+        background-size: contain !important;
       }
       .contact-homepage h1{
         padding: 0;
         margin: 0;
         color: var(--secondary);
       }
+
+      #contact-us{
+        padding: 2rem;
+      }
+
       .contact-homepage .contact-form{
-        padding: 0;
+        padding: 1rem !important;
         width: 100%;
+        margin-top: 0;
       }
 
       .footer-content{
@@ -3085,7 +3094,7 @@ ul.drop4{
 
 
 /* grid shop */
-@media (min-width:1400px){
+@media (min-width:1400px) and (max-width:1600px){
   .grid{
     columns: 24rem;
   }
