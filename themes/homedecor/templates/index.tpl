@@ -29,8 +29,13 @@
         {block name='page_content_top'}{/block}
         {block name='page_content'}
           {block name='hook_home'}
+
             <section class="articles-blog">
-              {$HOOK_HOME nofilter}
+              {hook h='displayHome' mod="leoelements"}
+            {* {$HOOK_HOME nofilter} *}
+            </section>
+            <section class="featured-products">
+              {hook h='displayHome' mod="ps_featuredproducts"}
             </section>
             {* <section class="our-studio">
               <div class="studio-card">
