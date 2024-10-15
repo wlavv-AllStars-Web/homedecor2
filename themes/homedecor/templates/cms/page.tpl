@@ -33,6 +33,187 @@
 
     {block name='cms_content'}
       {if $cms.id == 2}
+        
+      {elseif $cms.id == 4}
+        <div class="aboutus-cms">
+          <div class="aboutus-item">Sobre nós</div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item">
+            <p>A Casa de Campo, uma marca criada em 2022, está inserida na empresa SOUMAD, especializada na venda de artigos de bricolagem e materiais de construção. A nossa missão é proporcionar um acompanhamento de excelência, permitindo aos nossos clientes uma vida mais serena, transformando as suas habitações em espaços práticos e acolhedores.</p>
+            <p>Sob a liderança da designer Bárbara de Sousa, a Casa de Campo une o design de interiores à venda de artigos de decoração para interior e exterior. Surgimos da necessidade de expandir o negócio já existente na SOUMAD, uma empresa familiar fundada em 2000, indo além da venda de produtos de bricolagem e materiais de construção para incluir também artigos decorativos e projetos de design de interiores.</p>
+            <p>O projeto A CASA DE CAMPO surgiu muito antes da abertura da nossa primeira loja em 2022, quando em 2020 criamos o nosso primeiro cantinho no último piso da SOUMAD onde nos limitamos só à venda de artigos de decoração e eletrodomésticos.</p>
+            <p>Foi então que em 2022 surgiu a oportunidade de abrirmos a nossa primeira loja da marca CASA DE CAMPO, em Leça da Palmeira. Nesta loja, com cerca de 120m2, demos a conhecer a nossa marca, evoluímos ao nível da oferta de produtos e serviços, e começamos pouco a pouco a direcionarmo-nos para os projetos de design de interior e exterior. </p>
+            <p>Em 2024 surge uma nova oportunidade de mudarmos a nossa marca para um espaço maior onde pudéssemos ter uma maior visibilidade, termos a oportunidade de expandir e criar condições melhores para os nossos clientes, e de conseguirmos ter em loja uma maior oferta de produtos e amostras, bem como uma maior capacidade de resposta e agilidade no que toca a entrega e montagem de encomendas ou projetos. </p>
+            <p>E aqui estamos nós, na nossa nova loja, desta vez situada em Valença do Minho. Dispomos de uma área de 1000m2, onde disponibilizamos uma vasta oferta de produtos desde a decoração de interiores, mobiliário, produtos de banho, mesa e cozinha, e decoração e mobiliário de jardim.
+            O nosso compromisso vai além do design, procuramos a sustentabilidade e a inovação em cada projeto. Acreditamos que um bom design deve ser acessível e que o ambiente deve promover bem-estar e funcionalidade.
+            </p>
+            <p>Se está pronto para transformar seu espaço, entre em contato conosco. Estamos aqui para o ajudar a criar o ambiente dos seus sonhos!</p>
+
+            <h2>QUEM É A BÁRBARA?</h2>
+            <p>Olá! Eu sou a Bárbara de Sousa, apaixonada por criar e transformar ambientes. 
+            Desde pequena sempre tive um olhar mais atento para os detalhes e sobretudo para as artes. Entretanto, os anos foram passando e a  paixão pelas artes foi posta de lado ao longo do tempo. Direcionei-me para a área da economia em que sou atualmente Mestre. No período de tempo dedicado à minha tese de mestrado em economia, começou a despertar em mim uma curiosidade insaciável sobre como os ambientes afetam nosso bem-estar e criatividade.  Ainda não tinha terminado a minha tese de mestrado e essa paixão levou a inscrever-me no curso de Design de interiores onde aprendi as bases e as técnicas que hoje aplico nos meus projetos.
+            </p>
+            <p>Em todos os projetos em que tive a oportunidade de trabalhar, cada um deles trouxe desafios únicos, mas também experiência e aprendizagem. Acredito que o design deve ser uma extensão da personalidade dos clientes, e é isso que procuro em cada trabalho.
+            Além do aspecto técnico, valorizo a conexão com as pessoas. O meu objetivo é entender as necessidades e desejos de cada cliente, e criar ambientes que não sejam apenas visualmente agradáveis, mas que também proporcionem conforto e funcionalidade.
+            </p>
+            <p>Quando não estou a criar ou a projetar, gosto de ler, aprender e estar constantemente a explorar novas tendências. Adoro viajar, é nas minhas viagens onde absorvo mais informação e conhecimento. É nas viagens que todos os meus sentidos ficam abertos às novas realidades em que estou inserida e consigo inspirar-me em tudo. As viagens têm o poder de abrir os nossos horizontes e de nos conectar com diferentes culturas, estilos e tradições. Cada destino traz uma nova paleta de cores, texturas e formas, que se tornam fontes inesgotáveis de inspiração para o design de interiores. Ao explorar mercados locais, museus e arquitetura histórica, sou frequentemente impactada pela maneira como os elementos de um ambiente se entrelaçam com a história e a cultura de um lugar.</p>
+            <p>Além disso, as interações com pessoas de diferentes origens oferecem uma nova perspectiva sobre o que um espaço pode significar. Cada conversa, cada sorriso e cada gesto se transformam numa inspiração para criar ambientes que promovem conexão e acolhimento.</p>
+            <p>Nos meus projetos, procuro absorver essa essência das viagens, trazendo elementos que remetem a memórias e a emoções. </p>
+            <p>Acredito que um bom design deve contar uma história, e nada é mais poderoso do que a narrativa que as experiências das nossas viagens nos pode proporcionar.</p>
+            <p></p>
+          </div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+          <div class="aboutus-item"></div>
+        </div>
+      {elseif $cms.id == 3}
+        <div class="terms_conditions">
+          <div class="terms-img">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="terms-list">
+          <p>{l s="A Casa de Campo é responsável por todos os conteúdos disponibilizados no seu website, à exceção daqueles devidamente identificados. A Casa de Campo trabalha no sentido de que toda a informação apresentada esteja isenta de qualquer erro, no entanto, no caso da ocorrência de um erro, trataremos de o corrigir logo que possível. Chamamos ainda a atenção para o facto das cores visualizadas no seu ecrã poderem não corresponder com exatidão ao produto final, já que dependem das definições do próprio computador." d="Shop.Theme.Terms"}</p>
+
+          <p>
+            <strong>{l s="Direitos de autor" d="Shop.Theme.Terms"}:</strong>
+            <span>{l s="As imagens e demais informações relativas aos produtos da Casa de Campo existentes neste website poderão ser divulgadas livremente, desde que devidamente assinalada a sua procedência e respeitados todos os direitos de copyright dos produtos de que a marca é titular." d="Shop.Theme.Terms"}</span>
+          </p>
+
+          <p>
+            <strong>{l s="Confidencialidade" d="Shop.Theme.Terms"}:</strong>
+            <span>{l s="Os contactos e outras informações pessoais são facultados à Casa de Campo pelos próprios, podendo estes ser tratados informaticamente de forma automática ou manual. Os dados pessoais recolhidos são necessários nos processos de encomenda e de entrega da mercadoria em casa do cliente ou para a divulgação da newsletter e campanhas da marca." d="Shop.Theme.Terms"}</span>
+          </p>
+
+          <p>
+            <strong>{l s="Preâmbulo" d="Shop.Theme.Terms"}:</strong>
+            <span>{l s="As ofertas da nossa loja online são feitas pela Casa de Campo." d="Shop.Theme.Terms"}</span>
+          </p>
+
+          <p>
+            <strong>{l s="Identificação" d="Shop.Theme.Terms"}:</strong>
+            <span>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</span>
+            <span>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</span>
+            <span>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</span>
+            <span>{l s="E-mail: info@acasadecampo.pt" d="Shop.Theme.Terms"}</span>
+          </p>
+
+          <ol>
+          <li>
+          <h2>{l s="Fim da venda" d="Shop.Theme.Terms"}:</h2>
+          <p>{l s="As ofertas propostas no Site serão válidas enquanto os produtos relacionados estiverem online e enquanto houver o produto em stock." d="Shop.Theme.Terms"}</p>
+          </li>
+
+          <li>
+          <h2>{l s="Formalização da encomenda" d="Shop.Theme.Terms"}:</h2>
+          <p>{l s="Qualquer formulário de encomenda assinado pelo cliente através de um clique em ‘confirmar encomenda’ constituirá um compromisso irrevogável que deve ser questionado apenas nos casos listados nestes Termos e Condições Gerais de Venda." d="Shop.Theme.Terms"}</p>
+          </li>
+
+          <li>
+            <h2>{l s="Confirmação da encomenda" d="Shop.Theme.Terms"}:</h2>
+            <p>{l s="O contrato só se tornará efetivo após uma confirmação de encomenda feita pela Casa de Campo. O cliente receberá um aviso de receção por email para confirmar a encomenda incluindo todos os elementos, tais como a lista de produtos encomendados, o preço, a data de entrega e os custos de transporte." d="Shop.Theme.Terms"}</p>
+            <p>{l s="A Casa de Campo reserva-se no direito de não confirmar a encomenda por qualquer razão que seja, em particular relacionadas com as regras de aquisição de produtos ou qualquer problema relativo à ordem de encomenda recebida." d="Shop.Theme.Terms"}</p>
+          </li>
+
+          <li>
+            <h2>{l s="Preço - Fatura" d="Shop.Theme.Terms"}:</h2>
+            <p>{l s="Os preços estão indicados em Euros. O comprador tem garantido o preço colocado no Site no momento da compra. O preço fixado no momento da compra é correto e não inclui os custos de entrega que são um extra. Estes custos serão indicados no momento de confirmação da encomenda. Para uma entrega dentro da EU, os preços incluem o IVA aplicável no momento da compra. O IVA está incluído no preço. Nem custos de alfândega ou IVA devem ser cobrados aquando de uma entrega dentro da EU. Qualquer variação da taxa de IVA aplicável pode afetar o preço de venda do produto no catálogo. Na eventualidade da entrega fora da EU, o cliente terá que pagar por direitos alfandegários, IVA ou qualquer outra taxa relativa à importação de produtos dentro do país de entrega. O cliente é igualmente responsável pelas formalidades relacionadas exceto noutros casos especificados. O cliente é o único responsável por verificar em que casos os produtos encomendados se referem à legislação aplicável dentro do país de entrega." d="Shop.Theme.Terms"}</p>
+            <p>{l s="A fatura será emitida pela Casa de Campo. O cliente deverá indicar a morada para a qual a fatura deve ser enviada." d="Shop.Theme.Terms"}</p>
+          </li>
+
+          <li>
+          <h2>{l s="Pagamento" d="Shop.Theme.Terms"}:</h2>
+          <p>{l s="O preço é calculado aquando da colocação do pedido de encomenda. O cliente compromete-se a pagar o preço total dos produtos (preço do produto mais custos de entrega) conforme o estipulado no Site e igualmente a pagar, ou arranjar alguém para pagar por si os custos alfandegários, IVA ou qualquer outra taxa relativa à importação do produto no país de entrega, diretamente ao oficial alfandegário. O cliente deverá pagar pela sua encomenda com: Paypal, Cartão Bancário, Entidade e Referência Multibanco ou MBway." d="Shop.Theme.Terms"}</p>
+          </li>
+
+          <li>
+            <h2>{l s="Registo e Proteção de dados pessoais" d="Shop.Theme.Terms"}:</h2>
+            <p>{l s="Ao efetuar o registo para utilizar este website, será pedido ao Cliente que crie uma palavra-passe. O Cliente deverá mantê-la estritamente confidencial, não a revelando nem a partilhando com terceiros. O Cliente é total e exclusivamente responsável pelo uso da sua palavra-passe bem como quaisquer encomendas efetuadas com a mesma, mesmo sem o seu conhecimento. No caso de Clientes com registo, serão recolhidos os elementos necessários à realização de toda a transação comercial online e a futuros contactos que se mostrem necessários estabelecer, de maneira a assegurar o melhor serviço ao cliente." d="Shop.Theme.Terms"}</p>
+            <p>{l s="O Cliente garante que os dados pessoais fornecidos são verdadeiros e exatos, e compromete-se a notificar qualquer alteração dos mesmos. Quaisquer perdas ou danos causados à loja online ou a terceiros resultantes de informação incorreta, inexata ou incompleta dos formulários de registo será da exclusiva responsabilidade do Cliente." d="Shop.Theme.Terms"}</p>
+            <p>{l s="Os serviços assegurados pela Casa de Campo respeitarão sempre o previsto na Lei de Proteção de Dados Pessoais – Lei n.º 67/98, de 26 de Outubro, pelo que os dados pessoais fornecidos pelos Clientes são recolhidos pela Casa de Campo com a exclusiva finalidade de gestão da conta dos Clientes, faturação, comunicação com os Clientes, análises estatísticas e ações de marketing direto, assumindo o compromisso de privacidade e segurança no tratamento dos dados pessoais de cada Cliente." d="Shop.Theme.Terms"}</p>
+            <p>{l s="O Cliente autoriza expressamente a Casa de Campo a enviar informação sobre produtos e serviços que possam ser do seu interesse, utilizando os seus dados pessoais para efeitos de marketing direto. A qualquer momento, o Cliente poderá solicitar o acesso, retificação e cancelamento dos seus dados, usando os seguintes contactos:" d="Shop.Theme.Terms"}</p>
+            <p>{l s="Serviço de Apoio ao Cliente" d="Shop.Theme.Terms"}:</p>
+            <ul>
+              <p>{l s="IDENTIFICAÇÃO" d="Shop.Theme.Terms"}:</p>
+              <ul>
+                <li>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</li>
+                <li>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</li>
+                <li>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</li>
+                <li>{l s="E-mail: info@acasadecampo.pt" d="Shop.Theme.Terms"}</li>
+              </ul>
+            </ul>
+          </li>
+
+
+          <li>
+            <h2>{l s="Política de trocas e Devoluções" d="Shop.Theme.Terms"}:</h2>
+            <p>{l s="O cliente não tem reconhecido o direito de desistência da compra efetuada através da página web da Casa de Campo e, portanto, se não ficar satisfeito, não poderá devolver o produto, mas sim fazer uma troca do produto. No caso dos contratos de prestação de serviços, pode haver desistência. Ambas as situações podem ocorrer num prazo máximo de catorze dias de calendário a contar:" d="Shop.Theme.Terms"}</p>
+            <ul>
+              <li><p>{l s="a)	Do dia da celebração do contrato, no caso dos contratos de prestação de serviços;" d="Shop.Theme.Terms"}</p></li>
+              <li>
+                <p>{l s="b)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física dos bens, no caso dos contratos de compra e venda, ou:" d="Shop.Theme.Terms"}</p>
+                <ul>
+                  <li>{l s="i)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física do último bem, no caso de vários bens encomendados pelo consumidor numa única encomenda e entregues separadamente," d="Shop.Theme.Terms"}</li>
+                  <li>{l s="ii)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física do último lote ou elemento, no caso da entrega de um bem que consista em diversos lotes ou elementos," d="Shop.Theme.Terms"}</li>
+                  <li>{l s="iii)	Do dia em que o consumidor ou um terceiro por ele indicado, que não seja o transportador, adquira a posse física do primeiro bem, no caso dos contratos de entrega periódica de bens durante um determinado período;" d="Shop.Theme.Terms"}</li>
+                </ul>
+              </li>
+            </ul>
+
+            <p>{l s="Serviço de Apoio ao Cliente" d="Shop.Theme.Terms"}</p>
+            <ul>
+              <p>{l s="IDENTIFICAÇÃO:" d="Shop.Theme.Terms"}</p>
+              <li>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</li>
+              <li>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</li>
+              <li>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</li>
+              <li>{l s="E-mail: encomendas@acasadecampo.pt" d="Shop.Theme.Terms"}</li>
+            </ul>
+
+            <p>{l s="O direito de desistência de contrato de prestação de serviços ou troca de algum artigo, poderá ser exercido através dos canais seguintes:" d="Shop.Theme.Terms"}</p>
+            <ul>
+              <li>{l s="No caso da troca de artigos, através do e-mail encomendas@acasadecampo.pt explicando detalhadamente o caso, indicando o número de pedido, e anexando fotografias que comprovem o motivo do pedido de troca." d="Shop.Theme.Terms"}</li>
+              <li>{l s="No caso de desistência do contrato de prestação de serviços, através do e-mail projetos@acasadecampo.pt explicando detalhadamente o caso." d="Shop.Theme.Terms"}</li>
+            </ul>
+
+            <p>{l s="Para cumprir o prazo de troca de produtos ou desistência da prestação de serviços, basta que a comunicação relativa ao exercício deste direito pela sua parte seja enviada antes do vencimento do respectivo prazo." d="Shop.Theme.Terms"}</p>
+            
+            <p>{l s="O contrato de prestação de serviços entra em vigor a partir da data em que for feito o pagamento da primeira prestação. Caso nos primeiros 14 dias após o pagamento ser efetivado o cliente desistir do contrato de prestação de serviços, serão canceladas as prestações acordadas dos meses posteriores, mas não será devolvido ao cliente o primeiro valor pago para iniciação de projeto." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="O produto deve estar no mesmo estado em que foi entregue e deverá conservar a sua embalagem e etiquetagem originais, usando a mesma caixa protetora de cartão em que foi recebido para proteção do produto. Deverá igualmente conservar todos os seus acessórios e instruções de utilização. Caso a devolução não possa ser efetuada com a caixa protetora com a qual foi entregue, o cliente deverá devolvê-lo numa caixa protetora, tendo em vista fazer com que o produto seja devolvido com as máximas garantias possíveis." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="Não será pertinente a troca dos produtos que não estejam nas mesmas condições em que o cliente os recebeu, ou que tenham sido usados para além de terem sido experimentados. Caso o produto a devolver esteja reembalado ou não se encontre na sua embalagem original e completa, sofrerá uma depreciação do seu valor inicial, que será descontado do montante a devolver. O montante reembolsado de um produto nunca poderá ser superior ao montante pago." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="Em caso de troca, os artigos serão trocados ou será emitido ao cliente um vale no valor do pagamento efetuado pelos artigos em causa, excluindo as despesas de entrega, sem qualquer demora indevida e, em qualquer caso, o mais tardar 14 dias de calendário após a data em que sejamos informados da sua decisão de desistir deste contrato." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="Efetuaremos a troca ou emissão de vale, utilizando o mesmo meio de envio no caso de troca de artigos e via email no caso da emissão de um vale. pagamento utilizado pelo cliente para a transação inicial, salvo se tiver disposto expressamente o contrário; No caso da troca de produtos, se for feita em loja não é submetido qualquer custo adicional, caso seja feita a troca pelo método de envio de artigos cabe ao cliente assumir todas as despesas referentes a custos de transporte. A Casa de Campo poderá reter o valor do artigo até à receção dos bens, ou até que o cliente tenha apresentado uma prova da devolução dos mesmos, dependendo da condição que se verifique em primeiro lugar. No caso da receção de um artigo danificado ou com defeito, A Casa de Campo aguarda pela receção do artigo em loja para avaliação do estado da encomenda para posteriormente decidir se a troca é efetivada." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="A Casa de Campo recolherá, no endereço indicado pelo cliente, os bens que este desejar devolver, sem qualquer demora indevida e, em qualquer caso, o mais tardar no prazo de 14 dias de calendário a partir da data em que nos comunique a sua decisão de desistência do contrato. Considerar-se-á como cumprido o prazo se efetuar a devolução dos bens antes do fim de tal prazo;" d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="Os custos diretos de troca ficarão a cargo do cliente em qualquer caso. O custo da troca será o equivalente ao das despesas de envio sem descontos ou promoções aplicáveis. O consumidor será responsável pela diminuição do valor dos bens resultante de um manuseamento diferente do necessário para estabelecer a natureza, as características e o funcionamento dos bens. Por motivos de higiene e saúde pública, não será aceite a devolução de produtos de repouso, à exceção dos que apresentarem imperfeições de fabrico." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="A Casa de Campo não pagará as despesas de serviços já prestados, tais como retirada de produtos usados, portes, etc. A Casa de Campo fará a troca dos artigos danificados ou não sem demoras indevidas e, em qualquer caso, antes que tenham decorrido 14 dias de calendário a contar da data em que tenha sido informado da decisão de desistência e depois de verificado o estado do produto devolvido." d="Shop.Theme.Terms"}</p>
+
+            <p>{l s="A troca será efetuada seguindo o mesmo método de envio com o qual a compra foi primeiramente enviada." d="Shop.Theme.Terms"}</p>
+
+          </li>
+
+          </ol>
+          </div>
+        </div>
+      {elseif $cms.id == 10}
         <div class="privacy-cms">
           <h3>{l s="Política de Privacidade" d="Shop.Theme.Privacy"}</h3>
           <p>{l s="A Casa de Campo respeita a sua privacidade e agradece a confiança que deposita em nós. Nesta Política de Privacidade explicamos quem somos, para que finalidades podemos usar os seus dados, como os tratamos, com quem os partilhamos, bem como as formas de entrar em contacto connosco e de exercer os seus direitos." d="Shop.Theme.Privacy"}</p>
@@ -225,148 +406,6 @@
           <p>{l s="Utilizamos cookies e dispositivos similares para facilitar a sua navegação na Plataforma, compreender como interage connosco e, em determinados casos, poder mostrar-lhe publicidade em função dos seus hábitos de navegação. Por favor, leia a nossa Política de Cookies para conhecer em maior detalhe os cookies e dispositivos similares que utilizamos, a sua finalidade e outra informação útil." d="Shop.Theme.Privacy"}</p>
 
         </div>
-      {elseif $cms.id == 3}
-        <div class="terms_conditions">
-<div class="terms-img">
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-<div class="terms-list">
-<p>{l s="A Casa de Campo é responsável por todos os conteúdos disponibilizados no seu website, à exceção daqueles devidamente identificados. A Casa de Campo trabalha no sentido de que toda a informação apresentada esteja isenta de qualquer erro, no entanto, no caso da ocorrência de um erro, trataremos de o corrigir logo que possível. Chamamos ainda a atenção para o facto das cores visualizadas no seu ecrã poderem não corresponder com exatidão ao produto final, já que dependem das definições do próprio computador." d="Shop.Theme.Terms"}</p>
-
-<p>
-  <strong>{l s="Direitos de autor" d="Shop.Theme.Terms"}:</strong>
-  <span>{l s="As imagens e demais informações relativas aos produtos da Casa de Campo existentes neste website poderão ser divulgadas livremente, desde que devidamente assinalada a sua procedência e respeitados todos os direitos de copyright dos produtos de que a marca é titular." d="Shop.Theme.Terms"}</span>
-</p>
-
-<p>
-  <strong>{l s="Confidencialidade" d="Shop.Theme.Terms"}:</strong>
-  <span>{l s="Os contactos e outras informações pessoais são facultados à Casa de Campo pelos próprios, podendo estes ser tratados informaticamente de forma automática ou manual. Os dados pessoais recolhidos são necessários nos processos de encomenda e de entrega da mercadoria em casa do cliente ou para a divulgação da newsletter e campanhas da marca." d="Shop.Theme.Terms"}</span>
-</p>
-
-<p>
-  <strong>{l s="Preâmbulo" d="Shop.Theme.Terms"}:</strong>
-  <span>{l s="As ofertas da nossa loja online são feitas pela Casa de Campo." d="Shop.Theme.Terms"}</span>
-</p>
-
-<p>
-  <strong>{l s="Identificação" d="Shop.Theme.Terms"}:</strong>
-  <span>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</span>
-  <span>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</span>
-  <span>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</span>
-  <span>{l s="E-mail: info@acasadecampo.pt" d="Shop.Theme.Terms"}</span>
-</p>
-
-<ol>
-<li>
-<h2>{l s="Fim da venda" d="Shop.Theme.Terms"}:</h2>
-<p>{l s="As ofertas propostas no Site serão válidas enquanto os produtos relacionados estiverem online e enquanto houver o produto em stock." d="Shop.Theme.Terms"}</p>
-</li>
-
-<li>
-<h2>{l s="Formalização da encomenda" d="Shop.Theme.Terms"}:</h2>
-<p>{l s="Qualquer formulário de encomenda assinado pelo cliente através de um clique em ‘confirmar encomenda’ constituirá um compromisso irrevogável que deve ser questionado apenas nos casos listados nestes Termos e Condições Gerais de Venda." d="Shop.Theme.Terms"}</p>
-</li>
-
-<li>
-  <h2>{l s="Confirmação da encomenda" d="Shop.Theme.Terms"}:</h2>
-  <p>{l s="O contrato só se tornará efetivo após uma confirmação de encomenda feita pela Casa de Campo. O cliente receberá um aviso de receção por email para confirmar a encomenda incluindo todos os elementos, tais como a lista de produtos encomendados, o preço, a data de entrega e os custos de transporte." d="Shop.Theme.Terms"}</p>
-  <p>{l s="A Casa de Campo reserva-se no direito de não confirmar a encomenda por qualquer razão que seja, em particular relacionadas com as regras de aquisição de produtos ou qualquer problema relativo à ordem de encomenda recebida." d="Shop.Theme.Terms"}</p>
-</li>
-
-<li>
-  <h2>{l s="Preço - Fatura" d="Shop.Theme.Terms"}:</h2>
-  <p>{l s="Os preços estão indicados em Euros. O comprador tem garantido o preço colocado no Site no momento da compra. O preço fixado no momento da compra é correto e não inclui os custos de entrega que são um extra. Estes custos serão indicados no momento de confirmação da encomenda. Para uma entrega dentro da EU, os preços incluem o IVA aplicável no momento da compra. O IVA está incluído no preço. Nem custos de alfândega ou IVA devem ser cobrados aquando de uma entrega dentro da EU. Qualquer variação da taxa de IVA aplicável pode afetar o preço de venda do produto no catálogo. Na eventualidade da entrega fora da EU, o cliente terá que pagar por direitos alfandegários, IVA ou qualquer outra taxa relativa à importação de produtos dentro do país de entrega. O cliente é igualmente responsável pelas formalidades relacionadas exceto noutros casos especificados. O cliente é o único responsável por verificar em que casos os produtos encomendados se referem à legislação aplicável dentro do país de entrega." d="Shop.Theme.Terms"}</p>
-  <p>{l s="A fatura será emitida pela Casa de Campo. O cliente deverá indicar a morada para a qual a fatura deve ser enviada." d="Shop.Theme.Terms"}</p>
-</li>
-
-<li>
-<h2>{l s="Pagamento" d="Shop.Theme.Terms"}:</h2>
-<p>{l s="O preço é calculado aquando da colocação do pedido de encomenda. O cliente compromete-se a pagar o preço total dos produtos (preço do produto mais custos de entrega) conforme o estipulado no Site e igualmente a pagar, ou arranjar alguém para pagar por si os custos alfandegários, IVA ou qualquer outra taxa relativa à importação do produto no país de entrega, diretamente ao oficial alfandegário. O cliente deverá pagar pela sua encomenda com: Paypal, Cartão Bancário, Entidade e Referência Multibanco ou MBway." d="Shop.Theme.Terms"}</p>
-</li>
-
-<li>
-  <h2>{l s="Registo e Proteção de dados pessoais" d="Shop.Theme.Terms"}:</h2>
-  <p>{l s="Ao efetuar o registo para utilizar este website, será pedido ao Cliente que crie uma palavra-passe. O Cliente deverá mantê-la estritamente confidencial, não a revelando nem a partilhando com terceiros. O Cliente é total e exclusivamente responsável pelo uso da sua palavra-passe bem como quaisquer encomendas efetuadas com a mesma, mesmo sem o seu conhecimento. No caso de Clientes com registo, serão recolhidos os elementos necessários à realização de toda a transação comercial online e a futuros contactos que se mostrem necessários estabelecer, de maneira a assegurar o melhor serviço ao cliente." d="Shop.Theme.Terms"}</p>
-  <p>{l s="O Cliente garante que os dados pessoais fornecidos são verdadeiros e exatos, e compromete-se a notificar qualquer alteração dos mesmos. Quaisquer perdas ou danos causados à loja online ou a terceiros resultantes de informação incorreta, inexata ou incompleta dos formulários de registo será da exclusiva responsabilidade do Cliente." d="Shop.Theme.Terms"}</p>
-  <p>{l s="Os serviços assegurados pela Casa de Campo respeitarão sempre o previsto na Lei de Proteção de Dados Pessoais – Lei n.º 67/98, de 26 de Outubro, pelo que os dados pessoais fornecidos pelos Clientes são recolhidos pela Casa de Campo com a exclusiva finalidade de gestão da conta dos Clientes, faturação, comunicação com os Clientes, análises estatísticas e ações de marketing direto, assumindo o compromisso de privacidade e segurança no tratamento dos dados pessoais de cada Cliente." d="Shop.Theme.Terms"}</p>
-  <p>{l s="O Cliente autoriza expressamente a Casa de Campo a enviar informação sobre produtos e serviços que possam ser do seu interesse, utilizando os seus dados pessoais para efeitos de marketing direto. A qualquer momento, o Cliente poderá solicitar o acesso, retificação e cancelamento dos seus dados, usando os seguintes contactos:" d="Shop.Theme.Terms"}</p>
-  <p>{l s="Serviço de Apoio ao Cliente" d="Shop.Theme.Terms"}:</p>
-  <ul>
-    <p>{l s="IDENTIFICAÇÃO" d="Shop.Theme.Terms"}:</p>
-    <ul>
-      <li>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</li>
-      <li>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</li>
-      <li>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</li>
-      <li>{l s="E-mail: info@acasadecampo.pt" d="Shop.Theme.Terms"}</li>
-    </ul>
-  </ul>
-</li>
-
-
-<li>
-  <h2>{l s="Política de trocas e Devoluções" d="Shop.Theme.Terms"}:</h2>
-  <p>{l s="O cliente não tem reconhecido o direito de desistência da compra efetuada através da página web da Casa de Campo e, portanto, se não ficar satisfeito, não poderá devolver o produto, mas sim fazer uma troca do produto. No caso dos contratos de prestação de serviços, pode haver desistência. Ambas as situações podem ocorrer num prazo máximo de catorze dias de calendário a contar:" d="Shop.Theme.Terms"}</p>
-  <ul>
-    <li><p>{l s="a)	Do dia da celebração do contrato, no caso dos contratos de prestação de serviços;" d="Shop.Theme.Terms"}</p></li>
-    <li>
-      <p>{l s="b)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física dos bens, no caso dos contratos de compra e venda, ou:" d="Shop.Theme.Terms"}</p>
-      <ul>
-        <li>{l s="i)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física do último bem, no caso de vários bens encomendados pelo consumidor numa única encomenda e entregues separadamente," d="Shop.Theme.Terms"}</li>
-        <li>{l s="ii)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física do último lote ou elemento, no caso da entrega de um bem que consista em diversos lotes ou elementos," d="Shop.Theme.Terms"}</li>
-        <li>{l s="iii)	Do dia em que o consumidor ou um terceiro por ele indicado, que não seja o transportador, adquira a posse física do primeiro bem, no caso dos contratos de entrega periódica de bens durante um determinado período;" d="Shop.Theme.Terms"}</li>
-      </ul>
-    </li>
-  </ul>
-
-  <p>{l s="Serviço de Apoio ao Cliente" d="Shop.Theme.Terms"}</p>
-  <ul>
-    <p>{l s="IDENTIFICAÇÃO:" d="Shop.Theme.Terms"}</p>
-    <li>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</li>
-    <li>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</li>
-    <li>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</li>
-    <li>{l s="E-mail: encomendas@acasadecampo.pt" d="Shop.Theme.Terms"}</li>
-  </ul>
-
-  <p>{l s="O direito de desistência de contrato de prestação de serviços ou troca de algum artigo, poderá ser exercido através dos canais seguintes:" d="Shop.Theme.Terms"}</p>
-  <ul>
-    <li>{l s="No caso da troca de artigos, através do e-mail encomendas@acasadecampo.pt explicando detalhadamente o caso, indicando o número de pedido, e anexando fotografias que comprovem o motivo do pedido de troca." d="Shop.Theme.Terms"}</li>
-    <li>{l s="No caso de desistência do contrato de prestação de serviços, através do e-mail projetos@acasadecampo.pt explicando detalhadamente o caso." d="Shop.Theme.Terms"}</li>
-  </ul>
-
-  <p>{l s="Para cumprir o prazo de troca de produtos ou desistência da prestação de serviços, basta que a comunicação relativa ao exercício deste direito pela sua parte seja enviada antes do vencimento do respectivo prazo." d="Shop.Theme.Terms"}</p>
-  
-  <p>{l s="O contrato de prestação de serviços entra em vigor a partir da data em que for feito o pagamento da primeira prestação. Caso nos primeiros 14 dias após o pagamento ser efetivado o cliente desistir do contrato de prestação de serviços, serão canceladas as prestações acordadas dos meses posteriores, mas não será devolvido ao cliente o primeiro valor pago para iniciação de projeto." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="O produto deve estar no mesmo estado em que foi entregue e deverá conservar a sua embalagem e etiquetagem originais, usando a mesma caixa protetora de cartão em que foi recebido para proteção do produto. Deverá igualmente conservar todos os seus acessórios e instruções de utilização. Caso a devolução não possa ser efetuada com a caixa protetora com a qual foi entregue, o cliente deverá devolvê-lo numa caixa protetora, tendo em vista fazer com que o produto seja devolvido com as máximas garantias possíveis." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="Não será pertinente a troca dos produtos que não estejam nas mesmas condições em que o cliente os recebeu, ou que tenham sido usados para além de terem sido experimentados. Caso o produto a devolver esteja reembalado ou não se encontre na sua embalagem original e completa, sofrerá uma depreciação do seu valor inicial, que será descontado do montante a devolver. O montante reembolsado de um produto nunca poderá ser superior ao montante pago." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="Em caso de troca, os artigos serão trocados ou será emitido ao cliente um vale no valor do pagamento efetuado pelos artigos em causa, excluindo as despesas de entrega, sem qualquer demora indevida e, em qualquer caso, o mais tardar 14 dias de calendário após a data em que sejamos informados da sua decisão de desistir deste contrato." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="Efetuaremos a troca ou emissão de vale, utilizando o mesmo meio de envio no caso de troca de artigos e via email no caso da emissão de um vale. pagamento utilizado pelo cliente para a transação inicial, salvo se tiver disposto expressamente o contrário; No caso da troca de produtos, se for feita em loja não é submetido qualquer custo adicional, caso seja feita a troca pelo método de envio de artigos cabe ao cliente assumir todas as despesas referentes a custos de transporte. A Casa de Campo poderá reter o valor do artigo até à receção dos bens, ou até que o cliente tenha apresentado uma prova da devolução dos mesmos, dependendo da condição que se verifique em primeiro lugar. No caso da receção de um artigo danificado ou com defeito, A Casa de Campo aguarda pela receção do artigo em loja para avaliação do estado da encomenda para posteriormente decidir se a troca é efetivada." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="A Casa de Campo recolherá, no endereço indicado pelo cliente, os bens que este desejar devolver, sem qualquer demora indevida e, em qualquer caso, o mais tardar no prazo de 14 dias de calendário a partir da data em que nos comunique a sua decisão de desistência do contrato. Considerar-se-á como cumprido o prazo se efetuar a devolução dos bens antes do fim de tal prazo;" d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="Os custos diretos de troca ficarão a cargo do cliente em qualquer caso. O custo da troca será o equivalente ao das despesas de envio sem descontos ou promoções aplicáveis. O consumidor será responsável pela diminuição do valor dos bens resultante de um manuseamento diferente do necessário para estabelecer a natureza, as características e o funcionamento dos bens. Por motivos de higiene e saúde pública, não será aceite a devolução de produtos de repouso, à exceção dos que apresentarem imperfeições de fabrico." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="A Casa de Campo não pagará as despesas de serviços já prestados, tais como retirada de produtos usados, portes, etc. A Casa de Campo fará a troca dos artigos danificados ou não sem demoras indevidas e, em qualquer caso, antes que tenham decorrido 14 dias de calendário a contar da data em que tenha sido informado da decisão de desistência e depois de verificado o estado do produto devolvido." d="Shop.Theme.Terms"}</p>
-
-  <p>{l s="A troca será efetuada seguindo o mesmo método de envio com o qual a compra foi primeiramente enviada." d="Shop.Theme.Terms"}</p>
-
-</li>
-
-</ol>
-</div>
-</div>
       {else}
       {$cms.content nofilter}
       {/if}
