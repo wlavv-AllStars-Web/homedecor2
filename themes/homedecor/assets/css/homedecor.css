@@ -2529,10 +2529,13 @@ ul.drop4{
         margin-top: 0 ;
       }
 
+      .articles-blog{
+        min-height: 520px;
+      }
+
       .blog-container{
         position: relative;
         height: 60vh;
-        min-height: 520px;
       }
       .blog-container .blog-image-container{
         height: 100%;
