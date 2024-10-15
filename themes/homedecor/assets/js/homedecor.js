@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
 let prependNumber = 1;
     const swiper = new Swiper('.swiper', {
-      slidesPerView: 2,
+      slidesPerView: 1,
       centeredSlides: false,
       spaceBetween: 0,
       loop: true,
@@ -167,18 +167,23 @@ let prependNumber = 1;
         prevEl: '.swiper-button-prev',
       },
       breakpoints: {
-        640: {
+        480: {
           slidesPerView: 2,
           spaceBetween: 0,
         },
         768: {
           slidesPerView: 3,
-          spaceBetween: 40,
+          spaceBetween: 20,
         },
-        1024: {
+        1270: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+        1600: {
           slidesPerView: 4,
           spaceBetween: 50,
         },
+
       },
     });
 });

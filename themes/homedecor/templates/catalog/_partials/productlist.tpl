@@ -27,7 +27,7 @@
     {if isset($slider) && ($slider == 1)}
         <div class="products{if !empty($cssClass)} {$cssClass}{/if}">
                       
-        <div class="swiper">
+        <div id="featured-homepage" class="swiper">
             <div class="swiper-wrapper">
             {foreach from=$products item="product" key="position"}
                 <div class="swiper-slide">

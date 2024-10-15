@@ -54,6 +54,7 @@
 				{/for}
 			</div>
 			<div class="list-blog-slick-carousel slick-slider slick-loading" id="{$formAtts.form_id|escape:'html':'UTF-8'}">
+			{* <pre>{$products|print_r}</pre> *}
 				{foreach from=$products item=blog name=products name=mypLoop}					
 					<div class="slick-slide {if $smarty.foreach.mypLoop.index == 0} first{/if}">
 						<div class="item">		                    	
