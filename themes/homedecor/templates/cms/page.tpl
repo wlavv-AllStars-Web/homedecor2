@@ -38,12 +38,12 @@
           <p>{l s="A Casa de Campo respeita a sua privacidade e agradece a confiança que deposita em nós. Nesta Política de Privacidade explicamos quem somos, para que finalidades podemos usar os seus dados, como os tratamos, com quem os partilhamos, bem como as formas de entrar em contacto connosco e de exercer os seus direitos." d="Shop.Theme.Privacy"}</p>
           <p>{l s="Somos transparentes sobre aquilo que fazemos com os seus dados pessoais, para que compreenda as implicações das utilizações que realizamos ou os direitos que tem em relação aos seus dados. Colocamos ao seu dispor de forma permanente toda a informação incluída nesta Política de Privacidade que pode consultar quando quiser e, além disso, também irá encontrar informação acerca de cada tratamento dos seus dados pessoais conforme for interagindo connosco." d="Shop.Theme.Privacy"}</p>
 
-          <h3>{l s="Alguns nomes que utilizaremos nesta Política de Privacidade:" d="Shop.Theme.Privacy"}</h3>
+          <h3>{l s="Alguns nomes que utilizaremos nesta Política de Privacidade" d="Shop.Theme.Privacy"}:</h3>
           <ul>
             <li>{l s="Quando falamos da nossa Plataforma, referimo-nos em geral a qualquer dos canais ou meios, digitais ou em pessoa, que utilizou para interagir connosco." d="Shop.Theme.Privacy"}</li>
           </ul>
 
-          <h3>{l s="Os principais são:" d="Shop.Theme.Privacy"}</h3>
+          <h3>{l s="Os principais são" d="Shop.Theme.Privacy"}:</h3>
           <ul>
             <li>{l s="O nosso site," d="Shop.Theme.Privacy"}<a href="#">www.acasadecampo.pt</a></li>
             <li>{l s="Pessoalmente, na nossa Loja Física da Casa de Campo em Portugal." d="Shop.Theme.Privacy"}</li>
@@ -57,7 +57,7 @@
 
           <p>{l s="Consulte a nossa Política de Privacidade completa para compreender devidamente a forma como utilizaremos os seus dados pessoais e os direitos que tem em relação aos mesmos." d="Shop.Theme.Privacy"}</p>
 
-          <h3>{l s="Identificação do responsavel pelo tratamento de dados:" d="Shop.Theme.Privacy"}</h3>
+          <h3>{l s="Identificação do responsavel pelo tratamento de dados" d="Shop.Theme.Privacy"}:</h3>
           
           <ul class="tratamento-dados">
             <li><strong>{l s="Empresa" d="Shop.Theme.Privacy"}: </strong><span>{l s="Soumad - Comércio de Madeiras e Derivados, Lda. (doravante “A Casa de Campo”)" d="Shop.Theme.Privacy"}</span></li>
@@ -69,13 +69,24 @@
 
           <h3>{l s="Porque tratamos os seus dados pessoais" d="Shop.Theme.Privacy"}:</h3>
 
-          <p>{l s="Dependendo das finalidades para as quais tratamos os seus dados em cada momento, tal como explicado acima, necessitamos de tratar uns ou outros dados que, em geral, serão, consoante o caso, os seguintes: os seus dados de identificação (por exemplo, o seu nome, morada, contribuinte fiscal, dados de contacto, etc.); Informação económica e transacional (por exemplo, os seus dados financeiros no caso de pretender pedido de financiamento para aquisição dos nossos produtos.); Informação comercial (por exemplo, se subscreveu a nossa newsletter). Dados sobre os seus gostos e preferências." d="Shop.Theme.Privacy"}</p>
+          <p>{l s="Dependendo das finalidades para as quais tratamos os seus dados em cada momento, tal como explicado acima, necessitamos de tratar uns ou outros dados que, em geral, serão, consoante o caso, os seguintes" d="Shop.Theme.Privacy"}:</p>
+          <ul>
+            <li>
+            {l s="os seus dados de identificação (por exemplo, o seu nome, morada, contribuinte fiscal, dados de contacto, etc.);" d="Shop.Theme.Privacy"}
+            </li>
+            <li>
+            {l s="Informação económica e transacional (por exemplo, os seus dados financeiros no caso de pretender pedido de financiamento para aquisição dos nossos produtos.);" d="Shop.Theme.Privacy"}
+            </li>
+            <li>
+            {l s="Informação comercial (por exemplo, se subscreveu a nossa newsletter). Dados sobre os seus gostos e preferências." d="Shop.Theme.Privacy"}
+            </li>
+          </ul>
 
           <p>{l s="Recorde que, ao pedirmos que preencha os seus dados pessoais para dar-lhe acesso a alguma funcionalidade ou serviço da Plataforma, marcaremos alguns campos como obrigatórios, pois são dados que necessitamos para lhe poder prestar o serviço ou dar-lhe acesso às funcionalidades em questão. Por favor, tenha em conta que se decidir não nos fornecer esses dados, poderá não poder completar o seu registo como utilizador ou poderá não conseguir usufruir esses serviços ou funcionalidades. Dependendo de como interaja com a nossa Plataforma, isto é, dependendo dos serviços, produtos ou funcionalidades que pretender usufruir, trataremos os seus dados pessoais para as seguintes finalidades" d="Shop.Theme.Privacy"}:</p>
 
           <h3>{l s="Finalidade do tratamento de dados pessoais" d="Shop.Theme.Privacy"}</h3>
 
-          <h4>{l s="Para atender às solicitações ou pedidos que realizar através dos canais de Apoio ao Cliente. Só tratamos os dados pessoais que sejam estritamente necessários para gerir ou resolver a sua solicitação ou pedido. Esta finalidade inclui o tratamento dos seus dados, principalmente, para:" d="Shop.Theme.Privacy"}</h4>
+          <h4>{l s="Para atender às solicitações ou pedidos que realizar através dos canais de Apoio ao Cliente. Só tratamos os dados pessoais que sejam estritamente necessários para gerir ou resolver a sua solicitação ou pedido. Esta finalidade inclui o tratamento dos seus dados, principalmente, para" d="Shop.Theme.Privacy"}:</h4>
 
           <ul>
             <li>
@@ -126,7 +137,7 @@
 
           <h3>{l s="Qual é o fundamento de legitimidade para o tratamento dos seus dados?" d="Shop.Theme.Privacy"}</h3>
 
-          <h4>{l s="O fundamento jurídico que nos permite tratar os seus dados pessoais também depende da finalidade para a qual os tratamos, conforme vamos explicar:" d="Shop.Theme.Privacy"}</h4>
+          <h4>{l s="O fundamento jurídico que nos permite tratar os seus dados pessoais também depende da finalidade para a qual os tratamos, conforme vamos explicar" d="Shop.Theme.Privacy"}:</h4>
 
           <ul>
 
@@ -175,7 +186,7 @@
 
           <h3>{l s="Partilhamos os seus dados com terceiros?" d="Shop.Theme.Privacy"}</h3>
 
-          <h4>{l s="Para cumprir as finalidades indicadas na presente Política de Privacidade, é necessário darmos acesso aos seus dados pessoais a entidades da Casa de Campo e a terceiros que nos prestam apoio nos serviços que lhe proporcionamos, por exemplo:" d="Shop.Theme.Privacy"}</h4>
+          <h4>{l s="Para cumprir as finalidades indicadas na presente Política de Privacidade, é necessário darmos acesso aos seus dados pessoais a entidades da Casa de Campo e a terceiros que nos prestam apoio nos serviços que lhe proporcionamos, por exemplo" d="Shop.Theme.Privacy"}:</h4>
 
           <ul>
             <li><strong>{l s="Instituições financeiras;" d="Shop.Theme.Privacy"}</strong></li>
@@ -185,13 +196,13 @@
             <li><strong>{l s="Parceiros e prestadores de serviços relacionados com marketing e publicidade;" d="Shop.Theme.Privacy"}</strong></li>
           </ul>
 
-          <p>{l s="Por razões de eficiência do serviço, alguns dos prestadores poderão não pertencer à Casa de Campo, mas situam-se todos eles no Espaço Económico Europeu. Informamos que ao transferirmos os seus dados a terceiros salvaguardamos com garantias adequadas e sempre mantendo a segurança dos seus dados:" d="Shop.Theme.Privacy"}</p>
+          <p>{l s="Por razões de eficiência do serviço, alguns dos prestadores poderão não pertencer à Casa de Campo, mas situam-se todos eles no Espaço Económico Europeu. Informamos que ao transferirmos os seus dados a terceiros salvaguardamos com garantias adequadas e sempre mantendo a segurança dos seus dados" d="Shop.Theme.Privacy"}:</p>
 
           <h3>{l s="Quais são os seus direitos quando nos fornece os seus dados" d="Shop.Theme.Privacy"}</h3>
 
           <p>{l s="Comprometemo-nos a respeitar a confidencialidade dos seus dados pessoais e a garantir-lhe o exercício dos seus direitos. Determinamos que pode exercer os seus direitos sem nenhum custo escrevendo-nos uma mensagem de correio eletrónico para um endereço de correio eletrónico (info@acasadecampo.pt), simplesmente indicando-nos o motivo do seu pedido e o direito que quer exercer." d="Shop.Theme.Privacy"}</p>
 
-          <p>{l s="No caso de considerarmos necessário para o podermos identificar, podemos solicitar uma cópia de um documento identificativo. Em particular, independentemente da finalidade ou do fundamento jurídico ao abrigo do qual tratarmos os seus dados, tem direito a:" d="Shop.Theme.Privacy"}</p>
+          <p>{l s="No caso de considerarmos necessário para o podermos identificar, podemos solicitar uma cópia de um documento identificativo. Em particular, independentemente da finalidade ou do fundamento jurídico ao abrigo do qual tratarmos os seus dados, tem direito a" d="Shop.Theme.Privacy"}:</p>
 
           <ul>
             <li>{l s="Pedir-nos acesso aos dados que dispomos de si." d="Shop.Theme.Privacy"}</li>
@@ -232,22 +243,22 @@
 <p>{l s="A Casa de Campo é responsável por todos os conteúdos disponibilizados no seu website, à exceção daqueles devidamente identificados. A Casa de Campo trabalha no sentido de que toda a informação apresentada esteja isenta de qualquer erro, no entanto, no caso da ocorrência de um erro, trataremos de o corrigir logo que possível. Chamamos ainda a atenção para o facto das cores visualizadas no seu ecrã poderem não corresponder com exatidão ao produto final, já que dependem das definições do próprio computador." d="Shop.Theme.Terms"}</p>
 
 <p>
-  <strong>{l s="Direitos de autor:" d="Shop.Theme.Terms"}</strong>
+  <strong>{l s="Direitos de autor" d="Shop.Theme.Terms"}:</strong>
   <span>{l s="As imagens e demais informações relativas aos produtos da Casa de Campo existentes neste website poderão ser divulgadas livremente, desde que devidamente assinalada a sua procedência e respeitados todos os direitos de copyright dos produtos de que a marca é titular." d="Shop.Theme.Terms"}</span>
 </p>
 
 <p>
-  <strong>{l s="Confidencialidade:" d="Shop.Theme.Terms"}</strong>
+  <strong>{l s="Confidencialidade" d="Shop.Theme.Terms"}:</strong>
   <span>{l s="Os contactos e outras informações pessoais são facultados à Casa de Campo pelos próprios, podendo estes ser tratados informaticamente de forma automática ou manual. Os dados pessoais recolhidos são necessários nos processos de encomenda e de entrega da mercadoria em casa do cliente ou para a divulgação da newsletter e campanhas da marca." d="Shop.Theme.Terms"}</span>
 </p>
 
 <p>
-  <strong>{l s="Preâmbulo:" d="Shop.Theme.Terms"}</strong>
+  <strong>{l s="Preâmbulo" d="Shop.Theme.Terms"}:</strong>
   <span>{l s="As ofertas da nossa loja online são feitas pela Casa de Campo." d="Shop.Theme.Terms"}</span>
 </p>
 
 <p>
-  <strong>{l s="Identificação:" d="Shop.Theme.Terms"}</strong>
+  <strong>{l s="Identificação" d="Shop.Theme.Terms"}:</strong>
   <span>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</span>
   <span>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</span>
   <span>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</span>
@@ -256,56 +267,56 @@
 
 <ol>
 <li>
-<h2>{l s="Fim da venda:" d="Shop.Theme.Terms"}</h2>
+<h2>{l s="Fim da venda" d="Shop.Theme.Terms"}:</h2>
 <p>{l s="As ofertas propostas no Site serão válidas enquanto os produtos relacionados estiverem online e enquanto houver o produto em stock." d="Shop.Theme.Terms"}</p>
 </li>
 
 <li>
-<h2>{l s="Formalização da encomenda:" d="Shop.Theme.Terms"}</h2>
+<h2>{l s="Formalização da encomenda" d="Shop.Theme.Terms"}:</h2>
 <p>{l s="Qualquer formulário de encomenda assinado pelo cliente através de um clique em ‘confirmar encomenda’ constituirá um compromisso irrevogável que deve ser questionado apenas nos casos listados nestes Termos e Condições Gerais de Venda." d="Shop.Theme.Terms"}</p>
 </li>
 
 <li>
-  <h2>{l s="Confirmação da encomenda:" d="Shop.Theme.Terms"}</h2>
+  <h2>{l s="Confirmação da encomenda" d="Shop.Theme.Terms"}:</h2>
   <p>{l s="O contrato só se tornará efetivo após uma confirmação de encomenda feita pela Casa de Campo. O cliente receberá um aviso de receção por email para confirmar a encomenda incluindo todos os elementos, tais como a lista de produtos encomendados, o preço, a data de entrega e os custos de transporte." d="Shop.Theme.Terms"}</p>
   <p>{l s="A Casa de Campo reserva-se no direito de não confirmar a encomenda por qualquer razão que seja, em particular relacionadas com as regras de aquisição de produtos ou qualquer problema relativo à ordem de encomenda recebida." d="Shop.Theme.Terms"}</p>
 </li>
 
 <li>
-  <h2>{l s="Preço - Fatura:" d="Shop.Theme.Terms"}</h2>
+  <h2>{l s="Preço - Fatura" d="Shop.Theme.Terms"}:</h2>
   <p>{l s="Os preços estão indicados em Euros. O comprador tem garantido o preço colocado no Site no momento da compra. O preço fixado no momento da compra é correto e não inclui os custos de entrega que são um extra. Estes custos serão indicados no momento de confirmação da encomenda. Para uma entrega dentro da EU, os preços incluem o IVA aplicável no momento da compra. O IVA está incluído no preço. Nem custos de alfândega ou IVA devem ser cobrados aquando de uma entrega dentro da EU. Qualquer variação da taxa de IVA aplicável pode afetar o preço de venda do produto no catálogo. Na eventualidade da entrega fora da EU, o cliente terá que pagar por direitos alfandegários, IVA ou qualquer outra taxa relativa à importação de produtos dentro do país de entrega. O cliente é igualmente responsável pelas formalidades relacionadas exceto noutros casos especificados. O cliente é o único responsável por verificar em que casos os produtos encomendados se referem à legislação aplicável dentro do país de entrega." d="Shop.Theme.Terms"}</p>
   <p>{l s="A fatura será emitida pela Casa de Campo. O cliente deverá indicar a morada para a qual a fatura deve ser enviada." d="Shop.Theme.Terms"}</p>
 </li>
 
 <li>
-<h2>{l s="Pagamento:" d="Shop.Theme.Terms"}</h2>
+<h2>{l s="Pagamento" d="Shop.Theme.Terms"}:</h2>
 <p>{l s="O preço é calculado aquando da colocação do pedido de encomenda. O cliente compromete-se a pagar o preço total dos produtos (preço do produto mais custos de entrega) conforme o estipulado no Site e igualmente a pagar, ou arranjar alguém para pagar por si os custos alfandegários, IVA ou qualquer outra taxa relativa à importação do produto no país de entrega, diretamente ao oficial alfandegário. O cliente deverá pagar pela sua encomenda com: Paypal, Cartão Bancário, Entidade e Referência Multibanco ou MBway." d="Shop.Theme.Terms"}</p>
 </li>
 
 <li>
-  <h2>{l s="Registo e Proteção de dados pessoais:" d="Shop.Theme.Terms"}</h2>
+  <h2>{l s="Registo e Proteção de dados pessoais" d="Shop.Theme.Terms"}:</h2>
   <p>{l s="Ao efetuar o registo para utilizar este website, será pedido ao Cliente que crie uma palavra-passe. O Cliente deverá mantê-la estritamente confidencial, não a revelando nem a partilhando com terceiros. O Cliente é total e exclusivamente responsável pelo uso da sua palavra-passe bem como quaisquer encomendas efetuadas com a mesma, mesmo sem o seu conhecimento. No caso de Clientes com registo, serão recolhidos os elementos necessários à realização de toda a transação comercial online e a futuros contactos que se mostrem necessários estabelecer, de maneira a assegurar o melhor serviço ao cliente." d="Shop.Theme.Terms"}</p>
   <p>{l s="O Cliente garante que os dados pessoais fornecidos são verdadeiros e exatos, e compromete-se a notificar qualquer alteração dos mesmos. Quaisquer perdas ou danos causados à loja online ou a terceiros resultantes de informação incorreta, inexata ou incompleta dos formulários de registo será da exclusiva responsabilidade do Cliente." d="Shop.Theme.Terms"}</p>
   <p>{l s="Os serviços assegurados pela Casa de Campo respeitarão sempre o previsto na Lei de Proteção de Dados Pessoais – Lei n.º 67/98, de 26 de Outubro, pelo que os dados pessoais fornecidos pelos Clientes são recolhidos pela Casa de Campo com a exclusiva finalidade de gestão da conta dos Clientes, faturação, comunicação com os Clientes, análises estatísticas e ações de marketing direto, assumindo o compromisso de privacidade e segurança no tratamento dos dados pessoais de cada Cliente." d="Shop.Theme.Terms"}</p>
   <p>{l s="O Cliente autoriza expressamente a Casa de Campo a enviar informação sobre produtos e serviços que possam ser do seu interesse, utilizando os seus dados pessoais para efeitos de marketing direto. A qualquer momento, o Cliente poderá solicitar o acesso, retificação e cancelamento dos seus dados, usando os seguintes contactos:" d="Shop.Theme.Terms"}</p>
-</li>
-
-<li>
-  <h2>{l s="Serviço de Apoio ao Cliente:" d="Shop.Theme.Terms"}</h2>
+  <p>{l s="Serviço de Apoio ao Cliente" d="Shop.Theme.Terms"}:</p>
   <ul>
-    <p>{l s="IDENTIFICAÇÃO:" d="Shop.Theme.Terms"}</p>
-    <li>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</li>
-    <li>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</li>
-    <li>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</li>
-    <li>{l s="E-mail: info@acasadecampo.pt" d="Shop.Theme.Terms"}</li>
+    <p>{l s="IDENTIFICAÇÃO" d="Shop.Theme.Terms"}:</p>
+    <ul>
+      <li>{l s="Nome: Soumad - Comércio de Madeiras e Derivados, lda" d="Shop.Theme.Terms"}</li>
+      <li>{l s="Morada: Lugar do Tuído, Gandra | 4930-327 Valença" d="Shop.Theme.Terms"}</li>
+      <li>{l s="Telemóvel: +351 926 024 685 | Telefone: +351 251 094 513 (chamada para a rede móvel nacional)" d="Shop.Theme.Terms"}</li>
+      <li>{l s="E-mail: info@acasadecampo.pt" d="Shop.Theme.Terms"}</li>
+    </ul>
   </ul>
 </li>
 
+
 <li>
-  <h2>{l s="Política de trocas e Devoluções:" d="Shop.Theme.Terms"}</h2>
+  <h2>{l s="Política de trocas e Devoluções" d="Shop.Theme.Terms"}:</h2>
   <p>{l s="O cliente não tem reconhecido o direito de desistência da compra efetuada através da página web da Casa de Campo e, portanto, se não ficar satisfeito, não poderá devolver o produto, mas sim fazer uma troca do produto. No caso dos contratos de prestação de serviços, pode haver desistência. Ambas as situações podem ocorrer num prazo máximo de catorze dias de calendário a contar:" d="Shop.Theme.Terms"}</p>
   <ul>
-    <li>{l s="a)	Do dia da celebração do contrato, no caso dos contratos de prestação de serviços;" d="Shop.Theme.Terms"}</li>
+    <li><p>{l s="a)	Do dia da celebração do contrato, no caso dos contratos de prestação de serviços;" d="Shop.Theme.Terms"}</p></li>
     <li>
       <p>{l s="b)	Do dia em que o consumidor ou um terceiro, com exceção do transportador, indicado pelo consumidor adquira a posse física dos bens, no caso dos contratos de compra e venda, ou:" d="Shop.Theme.Terms"}</p>
       <ul>
