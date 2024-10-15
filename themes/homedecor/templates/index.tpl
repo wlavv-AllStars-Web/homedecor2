@@ -145,7 +145,7 @@
                
               </div>
             </section>
-            <section id="contact-us" class="contact-homepage">
+            <section id="contact-us" class="contact-homepage lazy">
               {hook h='displayContactContent' mod='contactform' id_module=25}
             </section>
             

@@ -182,7 +182,10 @@ html,body{
 .blog-container{
     display: flex;
     overflow: hidden;
+    max-height: 520px;
 }
+
+
 .blog-container .left-block{
     flex: 1;
 }

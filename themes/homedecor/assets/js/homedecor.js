@@ -1,3 +1,53 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");
+  var lazyloadThrottleTimeout;
+  
+  function lazyload() {
+    if (lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }
+    
+    lazyloadThrottleTimeout = setTimeout(function() {
+      var scrollTop = window.pageYOffset;
+      lazyloadImages.forEach(function(img) {
+        if (img.offsetTop < (window.innerHeight + scrollTop)) {
+          img.src = img.dataset.src;
+          img.classList.remove('lazy');
+        }
+      });
+      
+      // Remove listeners if all images are lazy-loaded
+      lazyloadImages = document.querySelectorAll("img.lazy"); // Update the NodeList after removing 'lazy' class
+      if (lazyloadImages.length == 0) {
+        document.removeEventListener("scroll", lazyload);
+        window.removeEventListener("resize", lazyload);
+        window.removeEventListener("orientationChange", lazyload);
+      }
+    }, 20);
+  }
+  
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+
+  let slider = document.querySelector(".slick-track")
+  if (slider) {
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === "childList" || mutation.type === "attributes") {
+          lazyload(); // Trigger lazy load when the slider changes
+        }
+      });
+    });
+    
+    observer.observe(slider, { childList: true, subtree: true, attributes: true });
+  }
+});
+
+
+
+
 function toggleSearchbar() {
   const searchbar = document.querySelectorAll("#search_widget");
   const Body = document.querySelector("#wrapper")

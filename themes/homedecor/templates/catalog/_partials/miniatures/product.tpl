@@ -34,12 +34,13 @@
                 {if !empty($product.cover.bySize.home_default.sources.avif)}<source srcset="{$product.cover.bySize.home_default.sources.avif}" type="image/avif">{/if}
                 {if !empty($product.cover.bySize.home_default.sources.webp)}<source srcset="{$product.cover.bySize.home_default.sources.webp}" type="image/webp">{/if}
                 <img
-                  src="{$product.cover.bySize.home_default.url}"
+                  data-src="{$product.cover.bySize.home_default.url}"
                   alt="{if !empty($product.cover.legend)}{$product.cover.legend}{else}{$product.name|truncate:30:'...'}{/if}"
                   loading="lazy"
                   data-full-size-image-url="{$product.cover.large.url}"
                   width="{$product.cover.bySize.home_default.width}"
                   height="{$product.cover.bySize.home_default.height}"
+                  class="lazy"
                 />
               </picture>
             </a>
@@ -49,10 +50,11 @@
                 {if !empty($urls.no_picture_image.bySize.home_default.sources.avif)}<source srcset="{$urls.no_picture_image.bySize.home_default.sources.avif}" type="image/avif">{/if}
                 {if !empty($urls.no_picture_image.bySize.home_default.sources.webp)}<source srcset="{$urls.no_picture_image.bySize.home_default.sources.webp}" type="image/webp">{/if}
                 <img
-                  src="{$urls.no_picture_image.bySize.home_default.url}"
+                  data-src="{$urls.no_picture_image.bySize.home_default.url}"
                   loading="lazy"
                   width="{$urls.no_picture_image.bySize.home_default.width}"
                   height="{$urls.no_picture_image.bySize.home_default.height}"
+                  class="lazy"
                 />
               </picture>
             </a>
