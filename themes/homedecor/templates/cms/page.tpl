@@ -327,7 +327,7 @@
 
   <p>{l s="O direito de desistência de contrato de prestação de serviços ou troca de algum artigo, poderá ser exercido através dos canais seguintes:" d="Shop.Theme.Terms"}</p>
   <ul>
-    <li>No caso da troca de artigos, através do e-mail encomendas@acasadecampo.pt explicando detalhadamente o caso, indicando o número de pedido, e anexando fotografias que comprovem o motivo do pedido de troca.</li>
+    <li>{l s="No caso da troca de artigos, através do e-mail encomendas@acasadecampo.pt explicando detalhadamente o caso, indicando o número de pedido, e anexando fotografias que comprovem o motivo do pedido de troca." d="Shop.Theme.Terms"}</li>
     <li>{l s="No caso de desistência do contrato de prestação de serviços, através do e-mail projetos@acasadecampo.pt explicando detalhadamente o caso." d="Shop.Theme.Terms"}</li>
   </ul>
 
