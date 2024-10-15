@@ -17,32 +17,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       });
       
-      // Remove listeners if all images are lazy-loaded
-      lazyloadImages = document.querySelectorAll("img.lazy"); // Update the NodeList after removing 'lazy' class
+      
+      lazyloadImages = document.querySelectorAll("img.lazy"); 
       if (lazyloadImages.length == 0) {
         document.removeEventListener("scroll", lazyload);
         window.removeEventListener("resize", lazyload);
         window.removeEventListener("orientationChange", lazyload);
       }
-    }, 20);
+    }, 0);
   }
   
   document.addEventListener("scroll", lazyload);
   window.addEventListener("resize", lazyload);
   window.addEventListener("orientationChange", lazyload);
 
-  let slider = document.querySelector(".slick-track")
-  if (slider) {
-    var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
-        if (mutation.type === "childList" || mutation.type === "attributes") {
-          lazyload(); // Trigger lazy load when the slider changes
-        }
-      });
-    });
-    
-    observer.observe(slider, { childList: true, subtree: true, attributes: true });
-  }
 });
 
 
@@ -132,6 +120,37 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// document.addEventListener("DOMContentLoaded", () => {
+// let prependNumber = 1;
+//     const swiper = new Swiper('.list-blog-slick-carousel', {
+//       slidesPerView: 2,
+//       centeredSlides: false,
+//       spaceBetween: 0,
+//       loop: true,
+//       pagination: {
+//         el: '.swiper-pagination',
+//         type: 'fraction',
+//       },
+//       navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//       },
+//       breakpoints: {
+//         640: {
+//           slidesPerView: 2,
+//           spaceBetween: 0,
+//         },
+//         768: {
+//           slidesPerView: 3,
+//           spaceBetween: 40,
+//         },
+//         1024: {
+//           slidesPerView: 4,
+//           spaceBetween: 50,
+//         },
+//       },
+//     });
+// });
 document.addEventListener("DOMContentLoaded", () => {
 let prependNumber = 1;
     const swiper = new Swiper('.swiper', {
