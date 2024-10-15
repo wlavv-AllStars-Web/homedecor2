@@ -175,6 +175,10 @@ html,body{
 
 /* blog */
 
+.articles-blog{
+  min-height: 520px;
+}
+
 .blog-container{
     display: flex;
     overflow: hidden;
@@ -2527,10 +2531,6 @@ ul.drop4{
         display: flex;
         align-items: center;
         margin-top: 0 ;
-      }
-
-      .articles-blog{
-        min-height: 520px;
       }
 
       .blog-container{
