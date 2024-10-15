@@ -787,7 +787,7 @@ input::placeholder, textarea::placeholder{
     position: relative;
 }
 .header-top .menu .menu-list .menu-item a{
-    background: var(--white);
+    /* background: var(--white); */
     color: var(--secondary) !important;
     font-family: var(--ff);
     font-weight: var(--fw-400);
@@ -2974,7 +2974,7 @@ ul.drop4{
  }
  .aboutus-cms .aboutus-item:nth-child(10) {
   grid-area: a-item10;
-  background-image: url('https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('/img/homedecor/cms/379961572_1329030164389419_3547348717445586198_n.jpg');
   background-position: center;
   background-size: cover;
   /* background-color: var(--secondary); */
